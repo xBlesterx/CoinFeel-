@@ -31,9 +31,9 @@ def monogoDB():
             return "Negative"
         elif 1 <= score < 1.1:
             return "Neutral"
-        elif 1.1 <= score < 1.6:
+        elif 1.1 <= score < 1.4:
             return "Positive"
-        elif 1.6 <= score <= 2:
+        elif 1.4 <= score <= 2:
             return "Very Positive"
         else:
             raise ValueError(f"Score {score} is out of bounds (0-2).")

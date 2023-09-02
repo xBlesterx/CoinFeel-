@@ -82,7 +82,7 @@ export const getMarcketData = async (req, res) => {
 export const getNews = async (req, res) => {
   const today = new Date();
   const yesterday = new Date(today);
-  yesterday.setDate(yesterday.getDate() - 1);
+  yesterday.setDate(today.getDate() - 1);
 
   const formatDate = (date) =>
     `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(
@@ -96,7 +96,7 @@ export const getNews = async (req, res) => {
   console.log("🚀 ~ file: general.js:96 ~ getNews ~ toDate:", toDate);
   try {
     const newsInfo = await axios.get(
-      `https://newsapi.org/v2/everything?q=cryptocurrency&from=${fromDate}&to=${toDate}&sortBy=popularity&apiKey=a1ba957a74c647a48f43d666485307c1`
+      `https://newsapi.org/v2/everything?q=crypto&sortBy=popularity&apiKey=a1ba957a74c647a48f43d666485307c1`
     );
 
     const newsData = { ...newsInfo };
