@@ -7,7 +7,7 @@ import {
   IconButton,
 } from "@mui/material";
 import PhotoCamera from "@mui/icons-material/PhotoCamera";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { usePutUpdateUserMutation } from "../../state/api";
 import { logoutUser } from "../../state";
@@ -22,6 +22,9 @@ const Profile = () => {
   const [password, setPassword] = useState("");
   const fileInputRef = useRef(null);
   const [updateUser] = usePutUpdateUserMutation();
+  useEffect(() => {
+    setAvatar(user.profilePic);
+  }, []);
 
   const handleSubmet = async () => {
     const response = await updateUser({

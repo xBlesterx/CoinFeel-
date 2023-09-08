@@ -29,9 +29,9 @@ def monogoDB():
             return "Very Negative"
         elif 0.6 <= score < 1:
             return "Negative"
-        elif 1 <= score < 1.1:
+        elif 1 <= score < 1.2:
             return "Neutral"
-        elif 1.1 <= score < 1.4:
+        elif 1.2 <= score < 1.4:
             return "Positive"
         elif 1.4 <= score <= 2:
             return "Very Positive"
@@ -77,9 +77,9 @@ def monogoDB():
     # Close the connection
     client.close()
     # Delete the Excel files
-    # for filename in filenames:
-    #     try:
-    #         os.remove(filename + ".xlsx")
-    #     except OSError as e:
-    #         print(f"Error deleting file {filename}.xlsx: {e}")
+    for filename in filenames:
+        try:
+            os.remove(filename + ".xlsx")
+        except OSError as e:
+            print(f"Error deleting file {filename}.xlsx: {e}")
     print("Opperation done successfully!!")

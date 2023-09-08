@@ -14082,3 +14082,1764 @@ export const sentiment = {
     },
   ],
 };
+
+export const news = {
+  status: "ok",
+  totalResults: 15611,
+  articles: [
+    {
+      source: {
+        id: null,
+        name: "Lifehacker.com",
+      },
+      author: "Stephen Johnson",
+      title: "How to Get Money Back From a Gift Card Scam",
+      description:
+        "According to the FTC, nearly 40,000 consumers used gift cards to pay scammers in 2021 alone. If you’ve been the victim of one of these confidence traps, whether it’s a romance scam, AI-assisted con job, sextortion operation, or something else, don’t assume th…",
+      url: "https://lifehacker.com/how-to-get-money-back-from-a-gift-card-scam-1850763735",
+      urlToImage:
+        "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/535583c23437a3cb49cb5b007dfb2e43.jpg",
+      publishedAt: "2023-08-23T12:00:00Z",
+      content:
+        "According to the FTC, nearly 40,000 consumers used gift cards to pay scammers in 2021 alone. If youve been the victim of one of these confidence traps, whether its a romance scam, AI-assisted con job… [+4933 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "engadget",
+        name: "Engadget",
+      },
+      author: "Kris Holt",
+      title:
+        "Dropbox ditches unlimited storage in its Advanced plan because of crypto goons",
+      description:
+        "Dropbox is killing off unlimited storage in its business-focused Advanced plan following a surge in shady activity. It wrote in a blog post that as other services made similar changes to limit storage capacity, it has seen an increase in people using Advanced…",
+      url: "https://www.engadget.com/dropbox-ditches-unlimited-storage-in-its-advanced-plan-because-of-crypto-goons-195335867.html",
+      urlToImage:
+        "https://s.yimg.com/ny/api/res/1.2/OMltv6_pXgh3xHuhhCUJBw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2023-04/cf2eaae0-e506-11ed-a4df-4ed9b607fcef",
+      publishedAt: "2023-08-24T19:53:35Z",
+      content:
+        "Dropbox is killing off unlimited storage in its business-focused Advanced plan following a surge in shady activity. It wrote in a blog post that as other services made similar changes to limit storag… [+2105 chars]",
+      sentiment: "Negative",
+    },
+    {
+      source: {
+        id: "engadget",
+        name: "Engadget",
+      },
+      author: "Katie Malone",
+      title:
+        "America's original hacking supergroup creates a free framework to improve app security",
+      description:
+        "Cult of the Dead Cow (cDc), a hacking group known for its activist endeavors, built an open source tool for developers to build secure apps. Veilid, launched at DEF CON on Friday, has options like letting users opt out of data collection and online tracking a…",
+      url: "https://www.engadget.com/americas-original-hacking-supergroup-creates-a-free-framework-to-improve-app-security-190043865.html",
+      urlToImage:
+        "https://s.yimg.com/uu/api/res/1.2/scDmU4.xJ8Ysk7TXH3iDfw--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2023-08/66b6ded0-386f-11ee-bcff-6e9dd310b947.cf.jpg",
+      publishedAt: "2023-08-11T19:00:43Z",
+      content:
+        "Cult of the Dead Cow (cDc), a hacking group known for its activist endeavors, built an open source tool for developers to build secure apps. Veilid, launched at DEF CON on Friday, has options like le… [+3636 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "wired",
+        name: "Wired",
+      },
+      author: "Joel Khalili",
+      title: "Sex Workers Took Refuge in Crypto. Now It’s Failing Them",
+      description:
+        "Banks and payments companies have long penalized sex workers. Many thought crypto would be a solution, but now exchanges are dumping them too.",
+      url: "https://www.wired.com/story/sex-workers-crypto-failing-them/",
+      urlToImage:
+        "https://media.wired.com/photos/64d192779a01d944fee3625c/191:100/w_1280,c_limit/Sex-Workers-Took-Refuge-In-Crypto-Business-1323759631.jpg",
+      publishedAt: "2023-08-08T10:00:00Z",
+      content:
+        "You get on an exchange for as long as you can, until they shut your ass down, says Knox. You quickly [run out of exchanges], so you sit on a lot of useless money. The whole crypto is permissionless a… [+4117 chars]",
+      sentiment: "Negative",
+    },
+    {
+      source: {
+        id: "the-verge",
+        name: "The Verge",
+      },
+      author: "Umar Shakir",
+      title: "PayPal announces a new CEO as its crypto push accelerates",
+      description:
+        "PayPal announced it’s bringing on a new CEO, as Alex Chriss from Intuit takes over in September. Current CEO Dan Schulman will remain as a director until May 2024.",
+      url: "https://www.theverge.com/2023/8/14/23831244/paypal-new-ceo-alex-chriss-crypto-pyusd",
+      urlToImage:
+        "https://cdn.vox-cdn.com/thumbor/NhMekbwEHwYCUkXN6gh73EhfAe0=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/10646751/acastro_180410_1777_payapl_0002.jpg",
+      publishedAt: "2023-08-14T14:10:48Z",
+      content:
+        "PayPal announces a new CEO as its crypto push accelerates\r\nPayPal announces a new CEO as its crypto push accelerates\r\n / Alex Chriss, Intuits chief product officer, will take over in late September f… [+1590 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "the-verge",
+        name: "The Verge",
+      },
+      author: "Emma Roth",
+      title:
+        "Dropbox blames crypto miners and resellers for ending its unlimited cloud storage plan",
+      description:
+        "Dropbox is ending unlimited storage for its Advanced plan and shifting to a metered model due to overuse by crypto miners and resellers. New customers will be capped at 15TB.",
+      url: "https://www.theverge.com/2023/8/25/23845554/dropbox-ending-unlimited-storage-advanced-plan",
+      urlToImage:
+        "https://cdn.vox-cdn.com/thumbor/-X3g48oihVZx9GMSUm_qOmmnt9c=/0x0:1600x900/1200x628/filters:focal(800x450:801x451)/cdn.vox-cdn.com/uploads/chorus_asset/file/22964172/dropbox_logo_2x.jpeg",
+      publishedAt: "2023-08-25T13:57:10Z",
+      content:
+        "Dropbox blames crypto miners and resellers for ending its unlimited cloud storage plan\r\nDropbox blames crypto miners and resellers for ending its unlimited cloud storage plan\r\n / Instead of offering … [+2372 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "the-verge",
+        name: "The Verge",
+      },
+      author: "Elizabeth Lopatto",
+      title:
+        "SEC takes first action against an NFT project as an unregistered security",
+      description:
+        "Impact Theory settled charges that it sold unlicensed securities without admitting guilt. The action — and $6.1 million fine — raise questions about NFTs broadly.",
+      url: "https://www.theverge.com/2023/8/28/23849104/sec-nft-action-securities-impact-theory",
+      urlToImage:
+        "https://cdn.vox-cdn.com/thumbor/bZvyhLtRgXDMfbJMm7FVoPFCZKg=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/22413650/acastro_210329_1777_nft_0005.jpg",
+      publishedAt: "2023-08-28T17:16:06Z",
+      content:
+        "SEC takes first action against an NFT project as an unregistered security\r\nSEC takes first action against an NFT project as an unregistered security\r\n / It raises an awful lot of questions about NFTs… [+3389 chars]",
+      sentiment: "Negative",
+    },
+    {
+      source: {
+        id: "the-verge",
+        name: "The Verge",
+      },
+      author: "Emma Roth",
+      title: "The Little Mermaid lands on Disney Plus in September",
+      description:
+        "The Little Mermaid is coming to Disney Plus. Starting on September 6th, you can start streaming the live-action remake from the service.",
+      url: "https://www.theverge.com/2023/8/7/23823045/little-mermaid-disney-plus-release-date-streaming",
+      urlToImage:
+        "https://cdn.vox-cdn.com/thumbor/ABRINUAc_XwrHd8M8tGFcep5d4A=/718x0:3551x1716/1200x628/filters:focal(2437x934:2438x935)/cdn.vox-cdn.com/uploads/chorus_asset/file/24835435/little_mermaid_singing.jpeg",
+      publishedAt: "2023-08-07T17:06:26Z",
+      content:
+        "The Little Mermaid lands on Disney Plus in September\r\nThe Little Mermaid lands on Disney Plus in September\r\n / You can stream the live-action remake starting on September 6th.\r\nByEmma Roth, a news wr… [+1255 chars]",
+      sentiment: "Positive",
+    },
+    {
+      source: {
+        id: "the-verge",
+        name: "The Verge",
+      },
+      author: "Emma Roth",
+      title: "PayPal launches PYUSD stablecoin backed by the US dollar",
+      description:
+        "PayPal has launched a stablecoin called PayPal USD, starting today and “rolling out in the coming weeks.” The new stablecoin can be used for purchases and person-to-person payments.",
+      url: "https://www.theverge.com/2023/8/7/23822752/paypal-pyusd-stablecoin-cryptocurrency",
+      urlToImage:
+        "https://cdn.vox-cdn.com/thumbor/AzUxs8UmwIY2lOByn5LIX8geWjY=/0x0:2200x1650/1200x628/filters:focal(1100x825:1101x826)/cdn.vox-cdn.com/uploads/chorus_asset/file/24835037/PayPal_stablecoin.png",
+      publishedAt: "2023-08-07T14:07:51Z",
+      content:
+        "PayPal launches PYUSD stablecoin backed by the US dollar\r\nPayPal launches PYUSD stablecoin backed by the US dollar\r\n / PayPal USD is built on Ethereum and is 1:1 redeemable for US dollars.\r\nPayPal is… [+1960 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "the-verge",
+        name: "The Verge",
+      },
+      author: "Emma Roth",
+      title:
+        "Hollywood writers say producers want them to ‘cave’ after the public release of proposals",
+      description:
+        "After Hollywood producers publicly released their counteroffer to striking writers, the Writers Guild of America responded by stating their plan is to “bet that we will turn on each other.”",
+      url: "https://www.theverge.com/2023/8/23/23842892/hollywood-producers-amptp-proposals-wga-strike",
+      urlToImage:
+        "https://cdn.vox-cdn.com/thumbor/ncro7BtLW8-pa2ssZK4XhzQtBHM=/0x0:4503x3035/1200x628/filters:focal(1654x1356:1655x1357)/cdn.vox-cdn.com/uploads/chorus_asset/file/24868225/1619312897.jpg",
+      publishedAt: "2023-08-23T17:58:17Z",
+      content:
+        "Hollywood writers say producers want them to cave after the public release of proposals\r\nHollywood writers say producers want them to cave after the public release of proposals\r\n / The AMPTP has post… [+2954 chars]",
+      sentiment: "Negative",
+    },
+    {
+      source: {
+        id: "the-verge",
+        name: "The Verge",
+      },
+      author: "Emma Roth",
+      title:
+        "YouTube is experimenting with longer but less frequent ad breaks on TV",
+      description:
+        "YouTube is testing longer ad breaks that appear in the middle of content on its app for connected TVs. The company is also exploring a new ad countdown timer.",
+      url: "https://www.theverge.com/2023/9/6/23859965/youtube-fewer-ad-breaks-longer-length",
+      urlToImage:
+        "https://cdn.vox-cdn.com/thumbor/ubyA2LZNKLf2r_hol_pRIYx5P28=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/23986637/acastro_STK092_01.jpg",
+      publishedAt: "2023-09-06T16:00:00Z",
+      content:
+        "YouTube is experimenting with longer but less frequent ad breaks on TV\r\nYouTube is experimenting with longer but less frequent ad breaks on TV\r\n / Instead of having ads scattered throughout the YouTu… [+2465 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "the-verge",
+        name: "The Verge",
+      },
+      author: "Emma Roth",
+      title: "Aqara put a notification light in its new Matter ceiling light",
+      description:
+        "During IFA 2023, Aqara introduced a new Matter-compatible smart ceiling light that offers a wide range of colors, along with an independently addressable RGB ring.",
+      url: "https://www.theverge.com/2023/8/31/23852845/aqara-matter-enabled-ceiling-light",
+      urlToImage:
+        "https://cdn.vox-cdn.com/thumbor/begwXiavciAlo4E5uYC4gCjsCiM=/0x0:2000x2000/1200x628/filters:focal(1021x402:1022x403)/cdn.vox-cdn.com/uploads/chorus_asset/file/24885189/aqara_ceiling_light.png",
+      publishedAt: "2023-08-31T07:00:00Z",
+      content:
+        "Aqara put a notification light in its new Matter ceiling light\r\nAqara put a notification light in its new Matter ceiling light\r\n / The smart home companys newest lighting product features an outer ri… [+3350 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: null,
+        name: "Gizmodo.com",
+      },
+      author: "Mack DeGeurin",
+      title: "PayPal Dives Into Crypto Madness With Dollar-Pegged Stablecoin",
+      description:
+        "PayPal is diving into the messy world of crypto with a new stablecoin pegged to the US dollar, aptly and uninventively named PayPal USD. The company’s entrance into the industry comes at a time of deep regulatory uncertainty as federal agencies and lawmakers …",
+      url: "https://gizmodo.com/paypal-usd-crypto-launch-dollar-stablecoin-2-1850713225",
+      urlToImage:
+        "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/3219b834d5e8c88598f051bd42ece4b1.jpg",
+      publishedAt: "2023-08-07T17:36:00Z",
+      content:
+        "PayPal is diving into the messy world of crypto with a new stablecoin pegged to the US dollar, aptly and uninventively named PayPal USD. The companys entrance into the industry comes at a time of dee… [+2846 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: null,
+        name: "Gizmodo.com",
+      },
+      author: "Kyle Barr",
+      title: "Dropbox Is Dropping Unlimited Storage, Blames Crypto Miners",
+      description:
+        "Dropbox is no longer offering new customers unlimited cloud storage. The company says crypto miners and other dastardly individuals pooled or resold storage space. Now, none of us can have nice things.Read more...",
+      url: "https://gizmodo.com/dropbox-ends-unlimited-storage-blames-crypto-miners-1850773843",
+      urlToImage:
+        "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/cdcdab520fde65cd63b7cab335d72f46.jpg",
+      publishedAt: "2023-08-25T14:10:00Z",
+      content:
+        "Dropbox is no longer offering new customers unlimited cloud storage. The company says crypto miners and other dastardly individuals pooled or resold storage space. Now, none of us can have nice thing… [+2867 chars]",
+      sentiment: "Positive",
+    },
+    {
+      source: {
+        id: null,
+        name: "Gizmodo.com",
+      },
+      author: "Kevin Hurler",
+      title:
+        "Former OpenSea Executive Sentenced to Three Months in Prison for Insider Trading",
+      description:
+        "The crumbling crypto empire that tech bros everywhere once hyped up has now claimed another victim. Nathaniel Chastain, former Head of Product at leading NFT marketplace OpenSea, has been sentenced to three months in prison for insider trading. Read more...",
+      url: "https://gizmodo.com/opensea-exec-sentenced-prison-insider-trading-1850765541",
+      urlToImage:
+        "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/d73c8f1690557b62424651a7c0d972a4.jpg",
+      publishedAt: "2023-08-23T14:14:00Z",
+      content:
+        "The crumbling crypto empire that tech bros everywhere once hyped up has now claimed another victim. Nathaniel Chastain, former Head of Product at leading NFT marketplace OpenSea, has been sentenced t… [+1752 chars]",
+      sentiment: "Negative",
+    },
+    {
+      source: {
+        id: null,
+        name: "Gizmodo.com",
+      },
+      author: "Thomas Germain",
+      title:
+        "Want to See How Bad Twitter's Bot Problem Is? Ask for Crypto Help.",
+      description:
+        "Twitter, the platform formally known as X, has a bot problem. If you want to see just how bad it is, I’ll teach you the magic words that summon the machines. Read more...",
+      url: "https://gizmodo.com/twitter-bot-problem-metamask-support-crypto-elon-musk-1850808172",
+      urlToImage:
+        "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/d8696378206ea58f7a21a3ed651338ed.jpg",
+      publishedAt: "2023-09-06T19:10:24Z",
+      content:
+        "Twitter, the platform formally known as X, has a bot problem. If you want to see just how bad it is, Ill teach you the magic words that summon the machines. \r\nFor the past year, Don Marti has been tw… [+4067 chars]",
+      sentiment: "Negative",
+    },
+    {
+      source: {
+        id: null,
+        name: "Gizmodo.com",
+      },
+      author: "Thomas Germain",
+      title: "The 5 Best VPNs for the Back to School 2023 Season",
+      description:
+        "Virtual Private Networks, better known as VPNs, are services that route your traffic through a sort of encrypted tunnel, hiding your online activities from your internet service provider and anyone else who manages your network. That makes VPNs a tool you sho…",
+      url: "https://gizmodo.com/the-5-best-vpns-for-the-back-to-school-2023-season-1850717495",
+      urlToImage:
+        "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/035bf005f9b54b6eb764f5819516b6b6.jpg",
+      publishedAt: "2023-08-09T14:50:00Z",
+      content:
+        "Virtual Private Networks, better known as VPNs, are services that route your traffic through a sort of encrypted tunnel, hiding your online activities from your internet service provider and anyone e… [+7719 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "bbc-news",
+        name: "BBC News",
+      },
+      author: "https://www.facebook.com/bbcnews",
+      title: "Akon: Success allows me to make music for myself",
+      description:
+        "The singer says he has the financial freedom to bring Afrobeats influences to his new material.",
+      url: "https://www.bbc.co.uk/news/newsbeat-66656883",
+      urlToImage:
+        "https://ichef.bbci.co.uk/news/1024/branded_news/4168/production/_130944761_akon1.jpg",
+      publishedAt: "2023-09-01T00:48:57Z",
+      content:
+        "RnB star Akon has been in the music business for almost 20 years. And the Senagalese-American singer says he's finally able to start making music for himself.\r\nBorn in the USA, Akon spent his childho… [+4823 chars]",
+      sentiment: "Positive",
+    },
+    {
+      source: {
+        id: "bbc-news",
+        name: "BBC News",
+      },
+      author: "https://www.facebook.com/bbcnews",
+      title: "Covid fraudster used pandemic rescue funds to buy alpaca farm",
+      description:
+        "The pizzeria owner used a $660,000 Covid-era loan to buy a farm, cars, and radio airtime.",
+      url: "https://www.bbc.co.uk/news/world-us-canada-66678562",
+      urlToImage:
+        "https://ichef.bbci.co.uk/news/1024/branded_news/14DCF/production/_130955458_gettyimages-937316048.jpg",
+      publishedAt: "2023-08-31T20:59:03Z",
+      content:
+        "A pizzeria owner from the Boston area has been convicted of using pandemic relief funds to buy an alpaca farm in Vermont and fund his radio programme. \r\nDana McIntyre, 59, was sentenced to two years … [+1643 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "google-news",
+        name: "Google News",
+      },
+      author: null,
+      title: "PayPal launches stablecoin in crypto push - Reuters",
+      description: "PayPal launches stablecoin in crypto push  Reuters",
+      url: "https://consent.google.com/ml?continue=https://news.google.com/rss/articles/CBMiVWh0dHBzOi8vd3d3LnJldXRlcnMuY29tL3RlY2hub2xvZ3kvcGF5cGFsLWxhdW5jaGVzLXN0YWJsZWNvaW4tY3J5cHRvLXB1c2gtMjAyMy0wOC0wNy_SAQA?oc%3D5&gl=FR&hl=en-US&cm=2&pc=n&src=1",
+      urlToImage: null,
+      publishedAt: "2023-08-07T13:12:00Z",
+      content:
+        "We use cookies and data to<ul><li>Deliver and maintain Google services</li><li>Track outages and protect against spam, fraud, and abuse</li><li>Measure audience engagement and site statistics to unde… [+1131 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "google-news",
+        name: "Google News",
+      },
+      author: null,
+      title:
+        "Crypto lender Celsius sends bankruptcy plan to creditor vote - Reuters",
+      description:
+        "Crypto lender Celsius sends bankruptcy plan to creditor vote  Reuters",
+      url: "https://consent.google.com/ml?continue=https://news.google.com/rss/articles/CBMiY2h0dHBzOi8vd3d3LnJldXRlcnMuY29tL2xlZ2FsL2NyeXB0by1sZW5kZXItY2Vsc2l1cy1zZW5kcy1iYW5rcnVwdGN5LXBsYW4tY3JlZGl0b3Itdm90ZS0yMDIzLTA4LTE0L9IBAA?oc%3D5&gl=FR&hl=en-US&cm=2&pc=n&src=1",
+      urlToImage: null,
+      publishedAt: "2023-08-14T20:50:00Z",
+      content:
+        "We use cookies and data to<ul><li>Deliver and maintain Google services</li><li>Track outages and protect against spam, fraud, and abuse</li><li>Measure audience engagement and site statistics to unde… [+1131 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "google-news",
+        name: "Google News",
+      },
+      author: null,
+      title: "PayPal to halt UK crypto sales until 2024 - Reuters",
+      description: "PayPal to halt UK crypto sales until 2024  Reuters",
+      url: "https://consent.google.com/ml?continue=https://news.google.com/rss/articles/CBMiVWh0dHBzOi8vd3d3LnJldXRlcnMuY29tL3RlY2hub2xvZ3kvcGF5cGFsLWhhbHQtdWstY3J5cHRvLXNhbGVzLXVudGlsLTIwMjQtMjAyMy0wOC0xNi_SAQA?oc%3D5&gl=FR&hl=en-US&cm=2&pc=n&src=1",
+      urlToImage: null,
+      publishedAt: "2023-08-16T13:49:00Z",
+      content:
+        "We use cookies and data to<ul><li>Deliver and maintain Google services</li><li>Track outages and protect against spam, fraud, and abuse</li><li>Measure audience engagement and site statistics to unde… [+1131 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "amok@insider.com (Aaron Mok)",
+      title:
+        "I made $175,000 in less than a month teaching people how to use AI for their businesses. Here are 5 ways you can use ChatGPT to produce the best content.",
+      description:
+        "I didn't know what to do after FTX crashed. Two weeks later, I discovered OpenAI's ChatGPT.",
+      url: "https://www.businessinsider.com/how-former-crypto-trader-made-over-100k-teaching-ai-chatgpt-2023-8",
+      urlToImage:
+        "https://i.insider.com/64e61c7d912f290019a98e48?width=1200&format=jpeg",
+      publishedAt: "2023-08-26T12:00:01Z",
+      content:
+        "This as-told-to essay is based on a conversation with Ole Lehmann,\r\na 32-year-old entrepreneur based in Cyprus, about how he went from being a crypto trader to a content creator focused on AI. Inside… [+4877 chars]",
+      sentiment: "Positive",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "prosen@insider.com (Phil Rosen)",
+      title:
+        "US stocks edge lower as August slump continues amid China property woes",
+      description:
+        "Stocks' sluggish start to the month continued, with the Nasdaq Composite coming off its first back-to-back losing weeks of the year.",
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-today-economy-fed-china-property-market-investors-2023-8",
+      urlToImage:
+        "https://i.insider.com/64caae1095fe1f0019df48fe?width=1200&format=jpeg",
+      publishedAt: "2023-08-14T13:34:35Z",
+      content:
+        "US stocks dipped early Monday, after the Nasdaq Composite recorded its first back-to-back losing weeks of the year.\r\nMeanwhile, Asian markets declined Monday and shares of Chinese property giant Coun… [+463 chars]",
+      sentiment: "Negative",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "fdemott@insider.com (Filip De Mott)",
+      title:
+        "US stocks rise as tech sector leads rally amid high hopes for Nvidia earnings",
+      description:
+        "Stocks looked to break out of the August slump as investors gear up for Nvidia earnings and the Federal Reserve's Jackson Hole summit.",
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-today-tech-sectorsrally-nvidia-ai-earnings-2023-8",
+      urlToImage:
+        "https://i.insider.com/64e4b6e5b698ac0019df0159?width=1200&format=jpeg",
+      publishedAt: "2023-08-22T13:38:51Z",
+      content:
+        "US stocks were mostly higher Tuesday, extending gains sparked by expectations around upcoming earnings reports and the Federal Reserve's Jackson Hole meeting.\r\nFollowing a three week sell-off, market… [+1181 chars]",
+      sentiment: "Positive",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "madams@businessinsider.com (Max Adams)",
+      title:
+        "US stocks rise after CPI shows inflation came in cooler than expected in July",
+      description:
+        "Inflation in July was higher than June but still lower than what was expected, with markets still eyeing a Fed pause on rate hikes next month.",
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-today-inflation-reoort-july-cpi-fed-markets-2023-8",
+      urlToImage:
+        "https://i.insider.com/64d4d6124dd2b50019c2aef4?width=1200&format=jpeg",
+      publishedAt: "2023-08-10T13:35:12Z",
+      content:
+        "US stocks jumped on Thursday as July Consumer Price Index data showed inflation rose last month at a slower rate than economists were predicting. \r\nInflation rose 3.2% on an annualized basis in July.… [+1445 chars]",
+      sentiment: "Positive",
+    },
+    {
+      source: {
+        id: null,
+        name: "Slashdot.org",
+      },
+      author: "msmash",
+      title: "Mastercard, Binance To End Crypto Card Partnership",
+      description:
+        "Mastercard and crypto exchange Binance will end their four crypto card programmes in Argentina, Brazil, Colombia and Bahrain as of Sept. 22. From a report: The Binance cards allow users to make payments in traditional currencies, funded by their cryptocurrenc…",
+      url: "https://news.slashdot.org/story/23/08/24/1753237/mastercard-binance-to-end-crypto-card-partnership",
+      urlToImage: "https://a.fsdn.com/sd/topics/money_64.png",
+      publishedAt: "2023-08-24T19:20:00Z",
+      content:
+        "Sign up for the Slashdot newsletter! OR check out the new Slashdot job board to browse remote jobs or jobs in your areaDo you develop on GitHub? You can keep using GitHub but automatically sync your … [+268 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: null,
+        name: "Slashdot.org",
+      },
+      author: "BeauHD",
+      title:
+        "Crypto Startup Bankrupt After Losing Password To $38.9 Million Physical Crypto Wallet",
+      description:
+        "An anonymous reader quotes a report from 404 Media: A buzzy startup offering financial infrastructure to crypto companies has found itself bankrupt primarily because it can't gain access to a physical crypto wallet with $38.9 million in it. The company also d…",
+      url: "https://slashdot.org/story/23/08/26/0318207/crypto-startup-bankrupt-after-losing-password-to-389-million-physical-crypto-wallet",
+      urlToImage: "https://a.fsdn.com/sd/topics/bitcoin_64.png",
+      publishedAt: "2023-08-26T13:00:00Z",
+      content:
+        "A buzzy startup offering financial infrastructure to crypto companies has found itself bankrupt primarily because it can't gain access to a physical crypto wallet with $38.9 million in it. The compan… [+2357 chars]",
+      sentiment: "Negative",
+    },
+    {
+      source: {
+        id: null,
+        name: "Slashdot.org",
+      },
+      author: "msmash",
+      title:
+        "First Bitcoin ETF Could Be Coming Soon as Court Rules in Favor of Grayscale Over SEC",
+      description:
+        "The U.S. Court of Appeals for the D.C. Circuit has paved the way for bitcoin exchange-traded funds. From a report: On Tuesday, the court sided with Grayscale in a lawsuit against the Securities and Exchange Commission which had denied the company's applicatio…",
+      url: "https://slashdot.org/story/23/08/29/1816233/first-bitcoin-etf-could-be-coming-soon-as-court-rules-in-favor-of-grayscale-over-sec",
+      urlToImage: "https://a.fsdn.com/sd/topics/bitcoin_64.png",
+      publishedAt: "2023-08-29T19:20:00Z",
+      content:
+        "On Tuesday, the court sided with Grayscale in a lawsuit against the Securities and Exchange Commission which had denied the company's application to convert the Grayscale Bitcoin Trust to an ETF. The… [+1393 chars]",
+      sentiment: "Negative",
+    },
+    {
+      source: {
+        id: null,
+        name: "Slashdot.org",
+      },
+      author: "msmash",
+      title:
+        "SEC Says NFTs Sold by an LA-based Entertainment Firm Are Securities",
+      description:
+        'In an enforcement action announced on Monday, the Securities and Exchange Commission charged Los Angelesâ"based entertainment company Impact Theory with conducting an unregistered offering of securities via non-fungible tokens, or NFTs. From a report: As the …',
+      url: "https://news.slashdot.org/story/23/08/28/1848235/sec-says-nfts-sold-by-an-la-based-entertainment-firm-are-securities",
+      urlToImage: "https://a.fsdn.com/sd/topics/usa_64.png",
+      publishedAt: "2023-08-28T18:48:00Z",
+      content:
+        "As the SEC expands its definition of which types of crypto assets qualify as securities, the case breaks new ground by determining that NFTs fall under the agency's jurisdiction. \"Absent a valid exem… [+762 chars]",
+      sentiment: "Negative",
+    },
+    {
+      source: {
+        id: null,
+        name: "Slashdot.org",
+      },
+      author: "msmash",
+      title:
+        "Crypto Has 'Amplified Financial Risks' in Emerging Markets, Central Banks Say",
+      description:
+        "Cryptocurrency assets have amplified rather than reduced financial risks in less developed economies, and regulators will need to treat them in the same way they oversee other assets, some of the world's most powerful central banks have warned. From a report:…",
+      url: "https://slashdot.org/story/23/08/23/1519208/crypto-has-amplified-financial-risks-in-emerging-markets-central-banks-say",
+      urlToImage: "https://a.fsdn.com/sd/topics/bitcoin_64.png",
+      publishedAt: "2023-08-23T15:20:00Z",
+      content:
+        "Sign up for the Slashdot newsletter! OR check out the new Slashdot job board to browse remote jobs or jobs in your areaDo you develop on GitHub? You can keep using GitHub but automatically sync your … [+268 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: null,
+        name: "Slashdot.org",
+      },
+      author: "msmash",
+      title:
+        "Worldcoin Ignored Initial Order To Stop Iris Scans in Kenya, Records Show",
+      description:
+        "Months before Kenya finally banned iris scans by Sam Altman's crypto startup Worldcoin, the Office of the Data Protection Commissioner (ODPC) had ordered its parent company, Tools for Humanity, to stop collecting personal data. From a report: The ODPC had in …",
+      url: "https://yro.slashdot.org/story/23/08/18/1439213/worldcoin-ignored-initial-order-to-stop-iris-scans-in-kenya-records-show",
+      urlToImage: "https://a.fsdn.com/sd/topics/privacy_64.png",
+      publishedAt: "2023-08-18T14:41:00Z",
+      content:
+        "The ODPC had in May this year instructed the crypto startup to stop iris scans and the collection of facial recognition and other personal data in Kenya, a letter sent to Worldcoin and seen by TechCr… [+1209 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: null,
+        name: "Slashdot.org",
+      },
+      author: "msmash",
+      title:
+        "Payment Processor Checkout Drops Binance Over Money Laundering, Compliance Concerns",
+      description:
+        "Checkout.com, the London-based credit card processing company that ballooned its business model by servicing billions in crypto transactions for Binance clients, cut short its contract with the crypto giant this week, Forbes reported Friday. From the report: …",
+      url: "https://slashdot.org/story/23/08/18/147244/payment-processor-checkout-drops-binance-over-money-laundering-compliance-concerns",
+      urlToImage: "https://a.fsdn.com/sd/topics/business_64.png",
+      publishedAt: "2023-08-18T14:07:00Z",
+      content:
+        "In a pair of letters sent to Binance on August 9 and 11, Checkout CEO Guillaume Pousaz terminated the company's relationship with its once-largest customer citing \"reports of regulators actions and o… [+790 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Zahra Tayeb",
+      title:
+        "About 200 million people trade bitcoin – but only 6 are billionaires",
+      description:
+        "The findings from the Henley & Partners' Crypto Wealth Report come as bitcoin struggles to maintain its 2023 rally.",
+      url: "https://markets.businessinsider.com/news/currencies/crypto-wealth-six-bitcoin-billionaires-globally-2023-9",
+      urlToImage:
+        "https://i.insider.com/6418595ffa3bcb001907f72c?width=1200&format=jpeg",
+      publishedAt: "2023-09-07T08:11:22Z",
+      content:
+        "Bitcoin is up about 55% this year.Getty Images\r\n<ul>\n<li>Of about 200 people globally who trade bitcoin, just six are billionaires, Henley & Partners found.</li>\n<li>Meanwhile, 22 people worldwide ha… [+1504 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Matthew Loh",
+      title:
+        "Crypto has minted tens of thousands of new millionaires, but they're still only 0.02% of everyone who's ever bought digital currency, a new wealth report says",
+      description:
+        "At least 88,000 people have $1 million or more in cryptocurrency, and most of them got their wealth through crypto trading, per Henley & Partners.",
+      url: "https://www.businessinsider.com/cryptocurrency-millionaires-new-wealth-digital-currency-henley-partners-2023-9",
+      urlToImage:
+        "https://i.insider.com/64f991598a7840001961db88?width=1200&format=jpeg",
+      publishedAt: "2023-09-07T09:15:08Z",
+      content:
+        "People pass the Chanel store on Bond Street on 14th August 2023 in London, United Kingdom.Mike Kemp/In Pictures via Getty Images\r\n<ul>\n<li>At least 88,200 people have $1 million or more in cryptocurr… [+3033 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Chris Panella,Aaron Mok",
+      title:
+        "Sam Bankman-Fried is being sent to jail after a judge revoked his bail over alleged witness tampering",
+      description:
+        "Sam Bankman-Fried, the onetime crypto billionaire, was previously released on a $250 million bond in his fraud case last year.",
+      url: "https://www.businessinsider.com/sam-bankman-fried-bail-revoked-jail-alleged-witness-tampering-2023-8",
+      urlToImage:
+        "https://i.insider.com/64d68f5e5e5d5a00195c9e8a?width=1200&format=jpeg",
+      publishedAt: "2023-08-11T19:49:55Z",
+      content:
+        "FTX founder Sam Bankman-FriedEd Jones/Getty Images\r\n<ul>\n<li>FTX founder Sam Bankman-Fried had his bail revoked on Friday over alleged witness tampering.</li>\n<li>Bankman-Fried was previously release… [+751 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Phil Rosen",
+      title:
+        "Bitcoin just had its 2nd-straight losing month as crypto sold off in August along with stocks and bonds",
+      description:
+        "The world's biggest cryptocurrency failed to eke out a gain in August even as crypto investors cheered Grayscale's win over the SEC.",
+      url: "https://markets.businessinsider.com/news/currencies/bitcoin-price-crypto-token-august-stocks-bonds-equities-markets-investors-2023-9",
+      urlToImage:
+        "https://i.insider.com/64f217441e6afd00196a380f?width=1200&format=jpeg",
+      publishedAt: "2023-09-01T17:42:25Z",
+      content:
+        "bitcoin cryptocurrency digital currencyEdward Smith/Getty Images\r\n<ul>\n<li>Bitcoin finished August about 10% lower, its second consecutive losing month. </li>\n<li>Crypto was caught up in a tough sell… [+2148 chars]",
+      sentiment: "Negative",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Pete Syme",
+      title:
+        "Sam Bankman-Fried donated millions to 'weed out anti-crypto' politicians, new evidence says",
+      description:
+        "Sam Bankman-Fried funneled $100 million in political donations through FTX executives which was intended to gain favorable influence, prosecutors say.",
+      url: "https://www.businessinsider.com/sam-bankman-fried-ftx-donated-millions-to-politicans-gain-influence-2023-8",
+      urlToImage:
+        "https://i.insider.com/64db5deb1f51cc001969af86?width=1200&format=jpeg",
+      publishedAt: "2023-08-15T12:58:05Z",
+      content:
+        "Sam Bankman-Fried.ANGELA WEISS/AFP via Getty Images\r\n<ul><li>Prosecutors say Sam Bankman-Fried donated $100 million to politicians using FTX funds.</li><li>New evidence from an FTX executive indicate… [+3073 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Filip De Mott",
+      title:
+        "FTX taps Mike Novogratz's Galaxy Digital to help sell crypto stash",
+      description:
+        "FTX is looking for approval in appointing Galaxy Digital to manage its digital token assets, filings from Wednesday show.",
+      url: "https://markets.businessinsider.com/news/currencies/ftx-mike-novogratz-galaxy-digital-sell-crypto-bitcoin-sbf-ether-2023-8",
+      urlToImage:
+        "https://i.insider.com/64c8fcf1cf077800196853a9?width=1200&format=jpeg",
+      publishedAt: "2023-08-24T18:33:49Z",
+      content:
+        "Mike Novogratz speaks during Bitcoin 2022.Marco Bello / Stringer /Getty Images\r\n<ul>\n<li>FTX is looking for help from Galaxy Digital in managing its digital assets, filings show.</li>\n<li>The investm… [+1879 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Zahra Tayeb",
+      title:
+        "Bitcoin has plunged almost 20% since Standard Chartered predicted the crypto could surge to $120,000",
+      description:
+        "The world's largest cryptocurrency has had a weak August, finishing 10% lower for the second month in a row amid a broader sell-off in stocks and bonds.",
+      url: "https://markets.businessinsider.com/news/currencies/bitcoin-plunges-almost-20-percent-since-standard-chartered-predicted-120000-2023-9",
+      urlToImage:
+        "https://i.insider.com/63d9258f0a08ae0018a62696?width=1200&format=jpeg",
+      publishedAt: "2023-09-05T13:38:23Z",
+      content:
+        "Namthip Muanthongthae/Getty Images\r\n<ul>\n<li>Bitcoin has plunged almost 20% since the second week of July, when Standard Chartered predicted it could surge to $120,000. </li>\n<li>The cryptocurrency h… [+1768 chars]",
+      sentiment: "Positive",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Matthew Fox",
+      title:
+        "Bitcoin plunges more than 10% after Elon Musk's SpaceX reportedly sold the cryptocurrency",
+      description:
+        "The Wall Street Journal reported that SpaceX wrote down the value of its bitcoin holdings by a total of $373 million and has sold the cryptocurrency.",
+      url: "https://markets.businessinsider.com/news/currencies/bitcoin-price-plunge-elon-musks-spacex-sold-373-million-stake-2023-8",
+      urlToImage:
+        "https://i.insider.com/64df7ff3b698ac0019dc43a3?width=1200&format=jpeg",
+      publishedAt: "2023-08-18T15:14:49Z",
+      content:
+        "AP\r\n<ul><li>Bitcoin plunged about 10% after it was revealed that SpaceX sold the cryptocurrency.</li><li>The Wall Street Journal reported that SpaceX wrote down the value of bitcoin it owns by $373 m… [+1842 chars]",
+      sentiment: "Positive",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Joseph Wilkins",
+      title:
+        "SEC's Gary Gensler is waging war against crypto. Here's a look at how his views on the industry have evolved over the years",
+      description:
+        "The SEC chair has waged all-out war on the digital token sector since his appointment in 2021 – now the battle is getting messier.",
+      url: "https://markets.businessinsider.com/news/currencies/gary-gensler-sec-cryptocurrencies-bitcoin-ftx-binance-roundup-views-2023-9",
+      urlToImage:
+        "https://i.insider.com/64f1e0e15114270019af0cca?width=1200&format=jpeg",
+      publishedAt: "2023-09-03T10:05:01Z",
+      content:
+        "Tom Williams, Roll Call Inc/Getty Images\r\n<ul>\n<li>The SEC has waged war against the cryptocurrency industry this year with a string of lawsuits.</li>\n<li>At the heart of it is SEC chief Gary Gensler… [+4001 chars]",
+      sentiment: "Negative",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Azmi Haroun",
+      title:
+        "Sam Bankman-Fried does not have access to Adderall in custody and subsists on a diet of peanut butter sandwiches and water, his attorney alleges",
+      description:
+        "In a court hearing Tuesday, Sam Bankman-Fried's defense attorney said that the FTX co-founder has been living off of bread, water, and peanut butter.",
+      url: "https://www.businessinsider.com/sbf-lawyer-ftx-founders-has-no-adderall-only-bread-water-2023-8",
+      urlToImage:
+        "https://i.insider.com/63ab09a346a5550018b7fb14?width=1200&format=jpeg",
+      publishedAt: "2023-08-23T02:50:05Z",
+      content:
+        "Photo by Michael M. Santiago/Getty Images)\r\n<ul>\n<li>Sam Bankman-Fried's lawyer claimed that the FTX founder is unable to follow his vegan diet in prison.</li>\n<li>He's been living off of bread, wate… [+2458 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Phil Rosen",
+      title:
+        "Bitcoin is headed to $180,000 if regulators approve the first spot ETF in the US, Fundstrat's Tom Lee says",
+      description:
+        "The macro strategist broke down how regulators' decision to approve a new spot bitcoin ETF could send the token soaring next year.",
+      url: "https://markets.businessinsider.com/news/currencies/bitcoin-price-outlook-spot-etf-cryptocurrency-fundstrat-tom-lee-btc-2023-8",
+      urlToImage:
+        "https://i.insider.com/5fa1884c1df1d500182188f7?width=1200&format=jpeg",
+      publishedAt: "2023-08-16T18:27:23Z",
+      content:
+        "Cindy Ord/Getty Images\r\n<ul>\n<li>Fundstrat's Tom Lee said the approval of a new spot bitcoin ETF could send the token soaring in 2024.</li>\n<li>He told CNBC Wednesday that bitcoin could reach $180,00… [+2298 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Ryan Hogg",
+      title:
+        "Robinhood pays $605 million for 55 million shares once owned by Sam Bankman-Fried following a 4-way tussle",
+      description:
+        "Robinhood bought back 55 million shares owned by SBF's Emergent Fidelity Technologies after four parties laid claim to the stock.",
+      url: "https://www.businessinsider.com/robinhood-buys-shares-once-owned-by-sam-bankman-fried-2023-9",
+      urlToImage:
+        "https://i.insider.com/64f2fb85781926001910739e?width=1200&format=jpeg",
+      publishedAt: "2023-09-02T10:22:29Z",
+      content:
+        "FTX founder Sam Bankman-Fried following his arraignment in New York City in December.Ed Jones/AFP/Getty Images\r\n<ul><li>Robinhood bought 55 million of its shares worth $605 million that Sam Bankman-F… [+2180 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Phil Rosen",
+      title:
+        "US stocks trade mixed as the Dow caps off its worst week since March",
+      description:
+        "The S&P 500 and Nasdaq Composite both notched their third consecutive week of declines.",
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-today-dow-china-fed-deflation-bonds-bankruptcy-2023-8",
+      urlToImage:
+        "https://i.insider.com/64dfbe81b698ac0019dcc01e?width=1200&format=jpeg",
+      publishedAt: "2023-08-18T20:07:00Z",
+      content:
+        "Traders work on the floor of the New York Stock Exchange shortly after the opening bell in New York, U.S., February 6, 2020.Lucas Jackson/Reuters\r\n<ul>\n<li>US stocks finished mixed on Friday, with th… [+2428 chars]",
+      sentiment: "Negative",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Phil Rosen",
+      title:
+        "US stocks drop as bank shares slide after Moody's downgrades 10 firms",
+      description:
+        "The ratings giant slashed the ratings for 10 lenders and also put a handful of other banks on watch for a potential downgrade.",
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-today-dow-banks-moodys-downgrades-ratings-finance-2023-8",
+      urlToImage:
+        "https://i.insider.com/64d240e320f1cf0019cce8bf?width=1200&format=jpeg",
+      publishedAt: "2023-08-08T13:50:38Z",
+      content:
+        "Mario Tama/Getty Images\r\n<ul>\n<li>US stocks dropped Tuesday, and the Dow lost more than 260 points at the open.</li>\n<li> Moody's downgraded 10 US banks and also put other firms on downgrade watch.</… [+2392 chars]",
+      sentiment: "Negative",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Filip De Mott",
+      title:
+        "US stocks rise to gain for the week as traders assess August jobs report",
+      description:
+        "Wage growth slowed in August and unemployment climbed, calming investors worried about more aggressive moves by the Fed.",
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-today-equities-unemployment-august-jobs-report-inflation-2023-9",
+      urlToImage:
+        "https://i.insider.com/648359eca460da00192438f5?width=1200&format=jpeg",
+      publishedAt: "2023-09-01T20:07:02Z",
+      content:
+        "US Federal Reserve Chair Jerome Powell attends a press conference in Washington, DC, on March 22, 2023.Liu Jie/Xinhua via Getty Images\r\n<ul>\n<li>Stocks were mostly higher on Friday with major indexes… [+2735 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Jason Ma",
+      title:
+        "US stocks tumble as 10-year yield keeps climbing to hit highest since 2007",
+      description:
+        "Stock market indexes gave up early gains to finish lower, with the Dow notching its third consecutive decline.",
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-today-10-year-yield-highest-2007-dow-2023-8",
+      urlToImage:
+        "https://i.insider.com/64de77aabd98a6001978718e?width=1200&format=jpeg",
+      publishedAt: "2023-08-17T20:05:00Z",
+      content:
+        "Angela Weiss/AFP via Getty Images\r\n<ul>\n<li>US stocks tumbled Thursday as the 10-year Treasury yield kept climbing and hit the highest level since 2007.</li>\n<li>Measured on a daily basis, using a si… [+2056 chars]",
+      sentiment: "Negative",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Filip De Mott",
+      title: "US stocks rise as jobs data dampens fears of a tighter Fed",
+      description:
+        "The unemployment rate rose to 3.8% in August, and job gains from prior months were revised lower.",
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-today-august-jobs-report-fed-rate-hike-2023-9",
+      urlToImage:
+        "https://i.insider.com/64f1e2a95114270019af0ea2?width=1200&format=jpeg",
+      publishedAt: "2023-09-01T13:37:43Z",
+      content:
+        "Traders work on the floor of the New York Stock Exchange (NYSE) on March 28, 2023 in New York City.Spencer Platt/Getty Images\r\n<ul>\n<li>US stocks rose as fears diminished that the Fed would raise int… [+2210 chars]",
+      sentiment: "Positive",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Max Adams",
+      title: "US stocks slip as traders wait for Fed meeting minutes",
+      description:
+        "Markets were eyeing the release of the Fed's July meeting minutes, due out at 2 p.m. ET on Wednesday.",
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-today-fed-minutes-economy-inflation-china-2023-8",
+      urlToImage:
+        "https://i.insider.com/64dcc7905e5d5a00195f1749?width=1200&format=jpeg",
+      publishedAt: "2023-08-16T13:31:33Z",
+      content:
+        "Michael M. Santiago/Getty Images\r\n<ul>\n<li>US stocks were lower Wednesday morning ahead of the release of the Fed's latest meeting minutes. </li>\n<li>Inflation has been falling but is still above the… [+2483 chars]",
+      sentiment: "Negative",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Matthew Fox",
+      title:
+        "US stocks trade mixed as investors look to Fed comments for interest rate clues",
+      description:
+        "Any further interest rate hikes would be a surprise to investors, based on the CME FedWatch Tool, which is pricing in a rate cut in May 2024.",
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-today-dow-nasdaq-fedspeak-interest-rate-clues-2023-9",
+      urlToImage:
+        "https://i.insider.com/64f729ed1b7ced0019c81efa?width=1200&format=jpeg",
+      publishedAt: "2023-09-05T13:37:43Z",
+      content:
+        "Spencer Platt/Getty Images\r\n<ul><li>US stocks were mixed on Tuesday as investors look to comments from Fed officials for clues on interest rates.</li><li>Fed Governor Chris Waller said that recent ec… [+2252 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Phil Rosen",
+      title:
+        "US stocks fall as Fed official says more rate hikes could still be on the table",
+      description:
+        'Boston Fed President Susan Collins said policymakers should remain patient, and that "further tightening could be warranted."',
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-today-fed-rate-hike-outlook-susan-collins-2023-9",
+      urlToImage:
+        "https://i.insider.com/64f87780a35dd100195ef923?width=1200&format=jpeg",
+      publishedAt: "2023-09-06T13:32:06Z",
+      content:
+        'Traders work on the floor of the NYSE in New YorkBrendan McDermid/Reuters\r\n<ul>\n<li>US stocks moved lower Wednesday as a Federal Reserve official said more rate hikes are possible</li>\n<li>"Further t… [+2271 chars]',
+      sentiment: "Negative",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Jennifer Sor",
+      title:
+        "US stocks rise after 3-week selloff as traders look ahead to key earnings and Powell speech",
+      description:
+        "Markets are expecting key AI firms to report earnings and Powell to deliver his remarks on the US economy this week.",
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-today-wall-street-earnings-powell-jackson-hole-2023-8",
+      urlToImage:
+        "https://i.insider.com/60f5c6009addaf00191ead2a?width=1200&format=jpeg",
+      publishedAt: "2023-08-21T13:37:38Z",
+      content:
+        "A trader works during the Fed rate announcement on the floor at the New York Stock Exchange (NYSE) in New York, U.S., March 20, 2019.Reuters/Brendan McDermid\r\n<ul>\n<li>US stocks eked a small recovery… [+2252 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Phil Rosen",
+      title: "US stocks climb on fresh signs the labor market is cooling",
+      description:
+        "Tuesday's JOLTS data and Wednesday's ADP report both pointed to a cooling labor market, a welcome sign for the Federal Reserve.",
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-today-indexes-labor-jobs-jolts-fed-inflation-2023-8",
+      urlToImage:
+        "https://i.insider.com/64ef42380ce10a00183b6af9?width=1200&format=jpeg",
+      publishedAt: "2023-08-30T13:35:11Z",
+      content:
+        "Michael M. Santiago/Getty Images\r\n<ul>\n<li>US stocks climbed Wednesday on fresh indications that the labor market is cooling.</li>\n<li>The ADP report showed private-sector job growth slowed more than… [+2298 chars]",
+      sentiment: "Positive",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Jennifer Sor",
+      title:
+        "US stocks head for a 5-day winning streak as investors assess Fed's favorite inflation gauge",
+      description:
+        "The Fed's favorite inflation gauge rose 4.2% year over year in July, in line with what economists were expecting.",
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-today-rally-winning-streak-fed-inflation-pce-2023-8",
+      urlToImage:
+        "https://i.insider.com/61645cf62f8ca900195f6bd4?width=1200&format=jpeg",
+      publishedAt: "2023-08-31T13:37:45Z",
+      content:
+        "Getty Images / Mario Tama\r\n<ul>\n<li>Stocks headed for a five-day winning streak as investors digested the Fed's favorite inflation measure.</li>\n<li>Core PCE inflation rose 4.2% year per year in July… [+2336 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Phil Rosen",
+      title: "US stocks rise after Nvidia's blowout earnings beat",
+      description:
+        "The AI chipmaker's stock jumped almost 8% in early trade, pushing the market cap to a new record of $1.25 trillion.",
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-today-nvidia-earnings-wall-street-nasdaq-tech-2023-8",
+      urlToImage:
+        "https://i.insider.com/64e75709a7adf7001906e3ce?width=1200&format=jpeg",
+      publishedAt: "2023-08-24T13:34:06Z",
+      content:
+        "Jensen Huang, CEO of NVIDIA, at a 2023 press conference in Taipei.Sam Yeh / Contributor\r\n<ul>\n<li>Stocks rose Thursday after Nvidia's earnings blew Wall Street expectations out of the water.</li>\n<li… [+2169 chars]",
+      sentiment: "Positive",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Matthew Fox",
+      title: "US stocks edge lower as investors await slew of economic data",
+      description:
+        "The August employment report will be released Friday morning, with economists expecting a net gain of 186,000 new jobs.",
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-today-china-stimulus-economic-data-cpi-jobs-2023-8",
+      urlToImage:
+        "https://i.insider.com/5f5b6fa8e6ff30001d4e83fe?width=1200&format=jpeg",
+      publishedAt: "2023-08-29T13:37:15Z",
+      content:
+        "Traders work on the floor of the New York Stock Exchange shortly after the opening bell in New York, U.S., March 17, 2020.Lucas Jackson/Reuters\r\n<ul><li>US stocks edged lower on Tuesday as investors … [+2285 chars]",
+      sentiment: "Positive",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Dan DeFrancesco",
+      title: "Insider Today: Gen Z is out on college",
+      description:
+        "Gen Z isn't as interested in college as previous generations, and internal docs reveal tension between Amazon and Shopify amid a new partnership.",
+      url: "https://www.businessinsider.com/new-today-september-5-college-gen-z-amazon-finance-rto-2023-9",
+      urlToImage:
+        "https://i.insider.com/64629250785af800192b6b2f?width=1200&format=jpeg",
+      publishedAt: "2023-09-05T11:48:09Z",
+      content:
+        "Some Gen Zers are skipping college altogether.Getty Images\r\n<ul>\n<li>This post originally appeared in the Insider Today newsletter. Sign up here.</li>\n</ul>Hi, and welcome to Insider Today! I'm Dan D… [+7387 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Kwan Wei Kevin Tan",
+      title:
+        "Sam Bankman-Fried is in jail and will only get to enjoy his favorite peanut butter and jelly sandwiches 4 times a month, at $3.65 each",
+      description:
+        "The restriction could be tough for Bankman-Fried, a vegan who said he subsisted on peanut butter when he was incarcerated in the Bahamas last year.",
+      url: "https://www.businessinsider.com/sam-bankman-fried-limited-peanut-butter-jelly-sandwiches-jail-2023-8",
+      urlToImage:
+        "https://i.insider.com/64daf3b41f51cc00196983d9?width=1200&format=jpeg",
+      publishedAt: "2023-08-15T05:04:02Z",
+      content:
+        "Former FTX CEO Sam Bankman-Fried.Michael M. Santiago via Getty Images\r\n<ul>\n<li>FTX founder Sam Bankman-Fried is going to miss a lot of perks he enjoyed while under house arrest. </li>\n<li>Bankman-Fr… [+2781 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Phil Rosen",
+      title:
+        "US stocks rise as investors try to shake off August slump ahead of retail data",
+      description:
+        "Tech led the market higher, with the Nasdaq up more than 1% after last Friday marked its first run of back-to-back weekly losses in 2023.",
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-today-indexes-traders-banks-wall-street-housing-2023-8",
+      urlToImage:
+        "https://i.insider.com/64da740f5e5d5a00195db4ef?width=1200&format=jpeg",
+      publishedAt: "2023-08-14T20:09:22Z",
+      content:
+        "NYSE\r\n<ul>\n<li>US stocks ended higher as traders try to reinvigorate a rally that's stalled in August.</li>\n<li>The Nasdaq Composite was up over 1% after coming off back-to-back losing weeks for the … [+2872 chars]",
+      sentiment: "Positive",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Filip De Mott",
+      title:
+        "US stocks trade mixed after giving up early gains as tech-led rally fizzles",
+      description:
+        "Investors are bracing for Nvidia's earnings report on Wednesday, while the Federal Reserve's upcoming Jackson Hole symposium may provide some upside.",
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-today-nvda-nvidia-tech-rally-federal-reserve2023-8",
+      urlToImage:
+        "https://i.insider.com/64e510fa912f290019a90b8b?width=1200&format=jpeg",
+      publishedAt: "2023-08-22T20:16:07Z",
+      content:
+        "Jen-Hsun Huang, CEO of Nvidia Corp., gives a keynote presentation during the GPU Technology Conference in San Jose, California. Huang later unveiled the Titan X CPU operating with a GeForce GTX Titan… [+2897 chars]",
+      sentiment: "Negative",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Filip De Mott",
+      title:
+        "The race to the moon is heating up as lunar resources could top $1 quadrillion in value",
+      description:
+        'The head of Russia\'s space agency said "the race for the development of the natural resources of the moon has begun."',
+      url: "https://markets.businessinsider.com/news/commodities/moon-mining-space-race-helium-metals-india-chandrayaan-russia-luna-2023-8",
+      urlToImage:
+        "https://i.insider.com/64e617aa912f290019a985d2?width=1200&format=jpeg",
+      publishedAt: "2023-08-23T19:05:32Z",
+      content:
+        "A still from a livestream shows a 3D reconstitution of India's historic moon landing on August 23.ISRO\r\n<ul>\n<li>India made history Wednesday as the first nation to land a spacecraft on the moon's so… [+2873 chars]",
+      sentiment: "Negative",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Max Adams",
+      title:
+        "US stocks fall as Fed minutes show officials think hot inflation could still require more rate hikes",
+      description:
+        "Meeting minutes showed that officials believe policy needs to be aggressive enough to solidly get inflation back down to the 2% target.",
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-today-fed-minutes-inflation-sp500-dow-economy-2023-8",
+      urlToImage:
+        "https://i.insider.com/6054c0bea7446d0018c85192?width=1200&format=jpeg",
+      publishedAt: "2023-08-16T20:05:50Z",
+      content:
+        "Traders work on the floor of the New York Stock Exchange during morning trading on May 17, 2023 in New York City.Michael M. Santiago/Getty Images\r\n<ul>\n<li>US stocks closed lower on Wednesday after F… [+3696 chars]",
+      sentiment: "Negative",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Jennifer Sor",
+      title:
+        "US stocks trade mixed to close out tough August as traders brace for jobs report",
+      description:
+        "Stocks had a rocky ride in August, shedding nearly a quarter of the year's gains by mid-month before paring some losses.",
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-selloff-fed-inflation-jobs-report-labor-market-2023-8",
+      urlToImage:
+        "https://i.insider.com/62bdd9de7a6bd200198d0dc8?width=1200&format=jpeg",
+      publishedAt: "2023-08-31T20:06:04Z",
+      content:
+        "Getty Images / Drew Angerer\r\n<ul>\n<li>US stocks traded mixed on Thursday and ended August in the red.</li>\n<li>The S&P 500 closed off the month 1% lower, while the Dow and Nasdaq shed 2%.</li>\n<li>In… [+3175 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Matthew Fox",
+      title:
+        "US stocks rise as investors turn attention to upcoming inflation data",
+      description:
+        "For the Federal Reserve to cut interest rates, inflation would have to be decisively on track to near the central bank's long-term 2% target.",
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-today-july-cpi-inflation-data-interest-rates-2023-8",
+      urlToImage:
+        "https://i.insider.com/64caae27ce6977001984c24c?width=1200&format=jpeg",
+      publishedAt: "2023-08-07T13:49:26Z",
+      content:
+        ": Traders work on the floor of the New York Stock Exchange (NYSE) on June 01, 2023 in New York City. Despite the passing the debt ceiling bill in the U.S. House of Representatives, the Dow was lower … [+2724 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Max Adams",
+      title:
+        "US stocks whipsaw but close higher as Wall Street mulls Fed outlook after July CPI",
+      description:
+        "Stocks initially rallied hard after CPI data was published Thursday morning, but had given up most of those gains by the afternoon.",
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-today-july-cpi-inflation-dow-sp500-economy-2023-8",
+      urlToImage:
+        "https://i.insider.com/64d53e737e9149001aa4462c?width=1200&format=jpeg",
+      publishedAt: "2023-08-10T20:03:47Z",
+      content:
+        "Photo by Michael Nagle/Xinhua via Getty Images)\r\n<ul>\n<li>US stocks closed higher Thursday but gave up their biggest gains as traders assess July CPI data. </li>\n<li>Inflation last month came in at 3… [+2565 chars]",
+      sentiment: "Positive",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Matthew Fox",
+      title:
+        "US stocks finish the week mostly lower as July inflation data comes in mixed",
+      description:
+        "Wholesale prices for July edged up more than anticipated, muddling the outlook for when the Fed may declare victory over inflation.",
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-today-mixed-inflation-data-sends-stocks-lower-2023-8",
+      urlToImage:
+        "https://i.insider.com/5f732c1e0ab50d00184aced9?width=1200&format=jpeg",
+      publishedAt: "2023-08-11T20:03:55Z",
+      content:
+        "Lucas Jackson/Reuters\r\n<ul><li>US stocks finished the week mostly lower as investors digest mixed inflation data.</li><li>While the July CPI report came in lower than expected, the producer price ind… [+2639 chars]",
+      sentiment: "Positive",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Jennifer Sor",
+      title:
+        "US Stocks edge higher as traders wait for Powell's Jackson Hole speech",
+      description:
+        'Stocks plunged after last year\'s Jackson Hole Symposium, where Powell warned markets of "more pain" ahead as the Fed would stay hawkish on inflation.',
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-today-powell-jackson-hole-speech-fed-inflation-2023-08",
+      urlToImage:
+        "https://i.insider.com/64e61921912f290019a98806?width=1200&format=jpeg",
+      publishedAt: "2023-08-25T13:40:33Z",
+      content:
+        "Federal Reserve Governor Jerome Powell attends the Federal Reserve Bank of Kansas City's annual Jackson Hole Economic Policy Symposium in Jackson Hole, WyomingThomson Reuters\r\n<ul>\n<li>US stocks rose… [+2999 chars]",
+      sentiment: "Positive",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Jennifer Sor",
+      title: "US stocks falls as markets assess downbeat China data",
+      description:
+        "China's economic slump continues, weighing on prospects for global growth. The US 10-year Treasury jumped further above 4%.",
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-today-china-economy-news-growth-outlook-fitch-2023-8",
+      urlToImage:
+        "https://i.insider.com/543f7c31ecad04fd6a2a820a?width=1200&format=jpeg",
+      publishedAt: "2023-08-15T13:50:56Z",
+      content:
+        "A trader watches the screen at his terminal on the floor of the New York Stock Exchange in New York October 15, 2014. REUTERS/Lucas Jackson\r\n<ul>\n<li>US stocks fell in early morning trading as invest… [+2720 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Jennifer Sor",
+      title:
+        "Nasdaq breaks 4-day losing streak as tech shares rise ahead of key earnings",
+      description:
+        "Investors have their eye on Nvidia, which is expected to release its quarterly earnings report this Wednesday.",
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-today-tech-rally-nasdaq-nvidia-stock-earnings-2023-8",
+      urlToImage:
+        "https://i.insider.com/5ec6a04f988ee34d862e7c37?width=1200&format=jpeg",
+      publishedAt: "2023-08-21T20:05:41Z",
+      content:
+        "Goldman Sach's gives its list of high Sharpe ratio stocks.Andrew Kelly/Reuters\r\n<ul>\n<li>US stocks finished mixed on Monday as traders looked ahead to key earnings reports this week.</li>\n<li>The Nas… [+2508 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Pete Syme",
+      title:
+        "Sam Bankman-Fried wants to pay 7 expert witnesses up to $ 1,200 an hour to testify on his behalf",
+      description:
+        "Sam Bankman-Fried is hoping to enlist a former FEC commissioner as an expert witness, but prosecutors want to stop all seven from testifying.",
+      url: "https://www.businessinsider.com/sam-bankman-fried-expert-witnesses-trial-ftx-2023-8",
+      urlToImage:
+        "https://i.insider.com/64db5dde5e5d5a00195e2d60?width=1200&format=jpeg",
+      publishedAt: "2023-08-30T12:39:36Z",
+      content:
+        "Sam Bankman-Fried.ANGELA WEISS/AFP via Getty Images\r\n<ul><li>Sam Bankman-Fried is trying to build his legal defense with seven expert witnesses.</li><li>One of them, a former FEC commissioner, is cha… [+2877 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Matthew Fox",
+      title:
+        "US stocks surge after jobs data takes pressure off of interest rates",
+      description:
+        "A decline in job openings means wage pressures should ease, which would give the Federal Reserve some breathing room in its interest rate plans.",
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-today-jolts-job-data-interest-rates-fall-2023-8",
+      urlToImage:
+        "https://i.insider.com/626ff9cb86fa90001905fcd2?width=1200&format=jpeg",
+      publishedAt: "2023-08-29T20:16:18Z",
+      content:
+        "Traders work on the floor at the opening bell of the Dow Industrial Average at the New York Stock Exchange on March 18, 2020 in New York.Bryan R. Smith/AFP/Getty Images\r\n<ul><li>US stocks surged on T… [+2780 chars]",
+      sentiment: "Negative",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Jennifer Sor",
+      title:
+        "US stocks close higher as traders brush off Powell's warnings of more potential rate hikes",
+      description:
+        '"It is the Fed\'s job to bring inflation down to our 2% goal, and we will do so," Powell said at the Jackson Hole symposium Friday morning.',
+      url: "https://markets.businessinsider.com/news/stocks/stock-market-news-today-powell-fed-jackson-hole-inflation-rates-2023-8",
+      urlToImage:
+        "https://i.insider.com/64e8d97b52bc2d001992470f?width=1200&format=jpeg",
+      publishedAt: "2023-08-25T20:07:16Z",
+      content:
+        "Fed chief Powell reiterated that inflation was still above the Fed's 2% target.AP Photo/Susan Walsh, File\r\n<ul>\n<li>US stocks rose Friday as markets brushed off Powell's warnings of more possible Fed… [+3195 chars]",
+      sentiment: "Positive",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Peter Csathy",
+      title:
+        "Elon Musk has unprecedented influence that spans multiple industries — and our fate is in his hands",
+      description:
+        "He may be erratic and amoral, but he controls the most sensitive aspects of our lives (much to our peril).",
+      url: "https://www.businessinsider.com/elon-musk-unprecedented-influence-our-fate-in-his-hands-2023-9",
+      urlToImage:
+        "https://i.insider.com/64d505da10f730001ad36f7b?width=1200&format=jpeg",
+      publishedAt: "2023-09-02T09:25:01Z",
+      content:
+        "Peter Csathy writes that Musk's fingerprints are all over virtually every major aspect of our lives and no other captain of industry has ever come close to this kind of power, not even the great Stev… [+6577 chars]",
+      sentiment: "Positive",
+    },
+    {
+      source: {
+        id: "business-insider",
+        name: "Business Insider",
+      },
+      author: "Grace Kay",
+      title:
+        "The wild life of billionaire Twitter co-founder Jack Dorsey, who is known for eccentricities like eating one meal a day, and taking ice baths",
+      description:
+        "Jack Dorsey is famous for his unusual life of luxury. He's friends with Elon Musk and stepped down as Twitter CEO in 2021 but continues to lead Block.",
+      url: "https://www.businessinsider.com/jack-dorsey-twitter-creator-billionaire",
+      urlToImage:
+        "https://i.insider.com/60f93babfc253600181fbfd1?width=1200&format=jpeg",
+      publishedAt: "2023-08-29T10:08:05Z",
+      content:
+        "Jack Dorsey has led an interesting life.Joe Raedle/Getty Images\r\n<ul>\n<li>Jack Dorsey cofounded Twitter in 2006 and the company made him a billionaire.</li>\n<li>He stepped down as Twitter CEO in 2021… [+22810 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: null,
+        name: "ReadWrite",
+      },
+      author: "Alan Draper",
+      title: "New Cryptocurrency Launches to Invest in for August 2023",
+      description:
+        "The crypto market is currently in an exciting place, with signs that the industry is finally emerging from the crypto […]\nThe post New Cryptocurrency Launches to Invest in for August 2023 appeared first on ReadWrite.",
+      url: "https://readwrite.com/cryptocurrency/new-crypto-to-buy/",
+      urlToImage:
+        "https://readwrite.com/wp-content/uploads/2023/08/Sonik-Presale.png",
+      publishedAt: "2023-08-26T07:29:53Z",
+      content:
+        "The crypto market is currently in an exciting place, with signs that the industry is finally emerging from the crypto winter and heading towards another bull market. New tokens are being launched alm… [+44205 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: null,
+        name: "ReadWrite",
+      },
+      author: "Alan Draper",
+      title:
+        "15 Best Bitcoin Gambling Sites in 2023 – Compare Crypto Gambling Sites",
+      description:
+        "Crypto gambling sites are becoming increasingly popular. Some of the offered perks include instant deposits and withdrawals, anonymous accounts, and […]\nThe post 15 Best Bitcoin Gambling Sites in 2023 – Compare Crypto Gambling Sites appeared first on ReadWrit…",
+      url: "https://readwrite.com/cryptocurrency/best-bitcoin-gambling-sites/",
+      urlToImage:
+        "https://readwrite.com/wp-content/uploads/2023/08/image17-2-900x504.png",
+      publishedAt: "2023-08-31T09:59:50Z",
+      content:
+        "Crypto gambling sites are becoming increasingly popular. Some of the offered perks include instant deposits and withdrawals, anonymous accounts, and huge welcome packages for new players. But sifting… [+45916 chars]",
+      sentiment: "Positive",
+    },
+    {
+      source: {
+        id: null,
+        name: "ReadWrite",
+      },
+      author: "Alan Draper",
+      title: "15 Best Bitcoin Casinos for 2023 – Compare Crypto Casino Sites",
+      description:
+        "Bitcoin casinos offer many advantages that cannot be rivaled by regular gambling sites. This includes huge welcome packages, instant payouts, […]\nThe post 15 Best Bitcoin Casinos for 2023 – Compare Crypto Casino Sites appeared first on ReadWrite.",
+      url: "https://readwrite.com/cryptocurrency/best-crypto-casinos/",
+      urlToImage:
+        "https://readwrite.com/wp-content/uploads/2023/08/dice-5012425_1280.jpg",
+      publishedAt: "2023-08-30T10:28:43Z",
+      content:
+        "Bitcoin casinos offer many advantages that cannot be rivaled by regular gambling sites. This includes huge welcome packages, instant payouts, 24/7 customer support, and an anonymous gambling experien… [+47670 chars]",
+      sentiment: "Positive",
+    },
+    {
+      source: {
+        id: null,
+        name: "ReadWrite",
+      },
+      author: "Alan Draper",
+      title:
+        "15 Best Cryptocurrency to Invest in August 2023 – Compare Top Crypto to Buy Now",
+      description:
+        "Are you looking to gain exposure to cryptocurrencies but unsure which projects to invest in?  There are more than 25,000 […]\nThe post 15 Best Cryptocurrency to Invest in August 2023 – Compare Top Crypto to Buy Now appeared first on ReadWrite.",
+      url: "https://readwrite.com/cryptocurrency/best-crypto-to-buy/",
+      urlToImage:
+        "https://readwrite.com/wp-content/uploads/2023/06/Crypto-IRA-Provider.jpeg",
+      publishedAt: "2023-08-30T10:40:08Z",
+      content:
+        "Are you looking to gain exposure to cryptocurrencies but unsure which projects to invest in? \r\nThere are more than 25,000 cryptos available to purchase and while many offer the potential for massive … [+40568 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: null,
+        name: "ReadWrite",
+      },
+      author: "Michael Graw",
+      title: "10 Best Meme Coins to Buy in 2023",
+      description:
+        "Meme coins are among the hottest tokens in the crypto market right now. Famously volatile, some of the biggest meme […]\nThe post 10 Best Meme Coins to Buy in 2023 appeared first on ReadWrite.",
+      url: "https://readwrite.com/cryptocurrency/best-meme-coins-to-buy/",
+      urlToImage:
+        "https://readwrite.com/wp-content/uploads/2023/08/Wall-Street-Memes-Presale.png",
+      publishedAt: "2023-08-26T07:20:07Z",
+      content:
+        "Meme coins are among the hottest tokens in the crypto market right now. Famously volatile, some of the biggest meme coins have jumped more than 10,000% in recent months. Investors have made fortunes … [+25748 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: null,
+        name: "ReadWrite",
+      },
+      author: "Michael Graw",
+      title: "8 Best Stake Casino Alternatives for 2023",
+      description:
+        "The ever-expanding crypto gaming industry has a few big players, including Stake. While there’s no doubt this brand has reached […]\nThe post 8 Best Stake Casino Alternatives for 2023 appeared first on ReadWrite.",
+      url: "https://readwrite.com/cryptocurrency/best-stake-alternatives/",
+      urlToImage:
+        "https://readwrite.com/wp-content/uploads/2023/08/megadice2.png",
+      publishedAt: "2023-08-29T07:53:27Z",
+      content:
+        "The ever-expanding crypto gaming industry has a few big players, including Stake. While theres no doubt this brand has reached the top of the pecking order fair and square, its not the only reputable… [+20129 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: null,
+        name: "ReadWrite",
+      },
+      author: "Michael Graw",
+      title: "10 Best Crash Gambling Sites for 2023",
+      description:
+        "Crash games are one of the latest crazes in crypto casinos. They are similar to standard arcade games but have […]\nThe post 10 Best Crash Gambling Sites for 2023 appeared first on ReadWrite.",
+      url: "https://readwrite.com/cryptocurrency/best-crash-gambling-sites/",
+      urlToImage:
+        "https://readwrite.com/wp-content/uploads/2023/09/best-crash-casinos.png",
+      publishedAt: "2023-09-01T15:05:12Z",
+      content:
+        "Crash games are one of the latest crazes in crypto casinos. They are similar to standard arcade games but have a gambling twist. The goal is to score the biggest multiplier before the game crashes. \r… [+22608 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: null,
+        name: "ReadWrite",
+      },
+      author: "Michael Graw",
+      title: "10 Best Bitcoin Casinos with Instant Withdrawals & Payouts 2023",
+      description:
+        "A smooth and efficient payment system is the foundation of every successful gaming website. That’s even more important when you’re […]\nThe post 10 Best Bitcoin Casinos with Instant Withdrawals & Payouts 2023 appeared first on ReadWrite.",
+      url: "https://readwrite.com/cryptocurrency/instant-withdrawal-bitcoin-casinos/",
+      urlToImage:
+        "https://readwrite.com/wp-content/uploads/2023/08/instant-withdrawal-crypto-casinos.png",
+      publishedAt: "2023-08-31T14:47:28Z",
+      content:
+        "A smooth and efficient payment system is the foundation of every successful gaming website. Thats even more important when youre gaming with Bitcoin. Besides security, casino players opt for this cry… [+27569 chars]",
+      sentiment: "Positive",
+    },
+    {
+      source: {
+        id: null,
+        name: "ReadWrite",
+      },
+      author: "Elliott Lee",
+      title: "12 New Upcoming Binance Listings to Watch in 2023",
+      description:
+        "As the largest exchange by trading volume, identifying new Binance listings before they are announced can be one of the […]\nThe post 12 New Upcoming Binance Listings to Watch in 2023 appeared first on ReadWrite.",
+      url: "https://readwrite.com/upcoming-binance-listings/",
+      urlToImage:
+        "https://readwrite.com/wp-content/uploads/2023/07/kanchanara-EyabHDAgbE-unsplash.jpg",
+      publishedAt: "2023-08-29T14:55:55Z",
+      content:
+        "As the largest exchange by trading volume, identifying new Binance listings before they are announced can be one of the fastest routes to crypto success. This is because a Binance listing can often l… [+31166 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: null,
+        name: "ReadWrite",
+      },
+      author: "Sumejja",
+      title: "8 Best Aviator Casinos for 2023",
+      description:
+        "Aviator is an immensely popular casino game that relies on players’ capability to stay patient and strike quickly. While a […]\nThe post 8 Best Aviator Casinos for 2023 appeared first on ReadWrite.",
+      url: "https://readwrite.com/cryptocurrency/best-aviator-gambling-sites/",
+      urlToImage:
+        "https://readwrite.com/wp-content/uploads/2023/08/best-aviator-casinos.png",
+      publishedAt: "2023-08-29T17:21:56Z",
+      content:
+        "Aviator is an immensely popular casino game that relies on players capability to stay patient and strike quickly. While a plane is taking off and flying higher and higher, the potential profits rise … [+25136 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: null,
+        name: "ReadWrite",
+      },
+      author: "Ayodele Johnson",
+      title:
+        "NFT Revolution: Unveiling the Marketing Agencies Driving Global Adoption of Non-Fungible Tokens",
+      description:
+        "The world of non-fungible tokens (NFTs) has taken the digital landscape by storm, revolutionizing how we perceive and exchange digital […]\nThe post NFT Revolution: Unveiling the Marketing Agencies Driving Global Adoption of Non-Fungible Tokens appeared first …",
+      url: "https://readwrite.com/nft-revolution-unveiling-the-marketing-agencies-driving-global-adoption-of-non-fungible-tokens/",
+      urlToImage:
+        "https://readwrite.com/wp-content/uploads/2023/07/NFT-Marketing.jpg",
+      publishedAt: "2023-08-19T03:00:39Z",
+      content:
+        "The world of non-fungible tokens (NFTs) has taken the digital landscape by storm, revolutionizing how we perceive and exchange digital assets. From artwork and collectibles to virtual real estate and… [+10758 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: null,
+        name: "ReadWrite",
+      },
+      author: "Mahabir Dash",
+      title: "Cryptocurrency and Blockchain Security: Challenges and Solutions",
+      description:
+        "If we define cryptocurrency, it is a digital asset used for performing transitions digitally. Strong cryptography is employed in it […]\nThe post Cryptocurrency and Blockchain Security: Challenges and Solutions appeared first on ReadWrite.",
+      url: "https://readwrite.com/cryptocurrency-and-blockchain-security-challenges-and-solutions/",
+      urlToImage:
+        "https://readwrite.com/wp-content/uploads/2023/06/cryptocurrency-and-blockchain-security.png",
+      publishedAt: "2023-08-22T20:00:56Z",
+      content:
+        "If we define cryptocurrency, it is a digital asset used for performing transitions digitally. Strong cryptography is employed in it to safeguard financial transactions, restrict the creation of new u… [+13443 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: null,
+        name: "ReadWrite",
+      },
+      author: "Michael Graw",
+      title: "15 Next Cryptocurrency to Explode in 2023",
+      description:
+        "The cryptocurrency markets are often about timing; buy the right coin at the right time and significant gains can be […]\nThe post 15 Next Cryptocurrency to Explode in 2023 appeared first on ReadWrite.",
+      url: "https://readwrite.com/cryptocurrency/next-cryptocurrency-to-explode/",
+      urlToImage:
+        "https://readwrite.com/wp-content/uploads/2023/08/next-crypto-to-explode.png",
+      publishedAt: "2023-08-30T10:01:49Z",
+      content:
+        "The cryptocurrency markets are often about timing; buy the right coin at the right time and significant gains can be made. A good example of this is Pepe – which increased by over 7,000% within three… [+52184 chars]",
+      sentiment: "Negative",
+    },
+    {
+      source: {
+        id: null,
+        name: "ReadWrite",
+      },
+      author: "Kanepepi",
+      title: "15 Best Altcoins to Invest in 2023",
+      description:
+        "Seasoned investors are loading up on altcoins – as many are trading at huge discounts from their prior all-time highs. […]\nThe post 15 Best Altcoins to Invest in 2023 appeared first on ReadWrite.",
+      url: "https://readwrite.com/cryptocurrency/best-altcoins/",
+      urlToImage:
+        "https://readwrite.com/wp-content/uploads/2023/08/Screenshot-2023-08-28-at-11.39.42.png",
+      publishedAt: "2023-08-29T14:27:03Z",
+      content:
+        "Seasoned investors are loading up on altcoins – as many are trading at huge discounts from their prior all-time highs. There are thousands of altcoins to choose from, each offering its own upside pot… [+53183 chars]",
+      sentiment: "Positive",
+    },
+    {
+      source: {
+        id: null,
+        name: "ReadWrite",
+      },
+      author: "Brad Anderson",
+      title:
+        "The New Web is Three Dimensional, Artificially Intelligent, and Almost Here",
+      description:
+        "The first use of computers was pretty simple. Scientists performed calculations, kept the data on punch cards, sent astronauts to […]\nThe post The New Web is Three Dimensional, Artificially Intelligent, and Almost Here appeared first on ReadWrite.",
+      url: "https://readwrite.com/the-new-web-is-three-dimensional-artificially-intelligent-and-almost-here/",
+      urlToImage:
+        "https://readwrite.com/wp-content/uploads/2023/09/women-with-headset-on-in-front-of-computer-new-web-3D-scaled.jpg",
+      publishedAt: "2023-09-06T13:00:45Z",
+      content:
+        "The first use of computers was pretty simple. Scientists performed calculations, kept the data on punch cards, sent astronauts to the moon, and hoped they would come back. Each computer was a world o… [+5989 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: null,
+        name: "VentureBeat",
+      },
+      author: "Dean Takahashi",
+      title:
+        "People of Crypto Lab commemorates 50 years of Hip-Hop with Cultureverse",
+      description:
+        'We\'re thrilled to announce the return of GamesBeat Summit Next, hosted in San Francisco this October, where we will explore the theme of "Playing the Edge." Apply to speak here and learn more about sponsorship opportunities here.  People of Crypto Lab (POClab…',
+      url: "https://venturebeat.com/games/people-of-crypto-lab-commemorates-50-years-of-hip-hop-with-cultureverse/",
+      urlToImage:
+        "https://venturebeat.com/wp-content/uploads/2023/08/cultureverse.jpg?w=1200&strip=all",
+      publishedAt: "2023-08-28T13:30:00Z",
+      content:
+        'We\'re thrilled to announce the return of GamesBeat Summit Next, hosted in San Francisco this October, where we will explore the theme of "Playing the Edge." Apply to speak here and learn more about s… [+2995 chars]',
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: null,
+        name: "VentureBeat",
+      },
+      author: "Dean Takahashi",
+      title:
+        "Story Protocol raises $54M to blend Web3 and intellectual property creation",
+      description:
+        "Story Protocol has raised $54 million in funding to create the infrastructure for a new era of creativity and intellectual property ownership.",
+      url: "https://venturebeat.com/games/story-protocol-raises-54m-to-blend-web3-and-intellectual-property-creation/",
+      urlToImage:
+        "https://venturebeat.com/wp-content/uploads/2023/09/venturebeat.png?w=1200&strip=all",
+      publishedAt: "2023-09-07T04:00:00Z",
+      content:
+        'We\'re thrilled to announce the return of GamesBeat Next, hosted in San Francisco this October, where we will explore the theme of "Playing the Edge." Apply to speak here and learn more about sponsors… [+7438 chars]',
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "the-next-web",
+        name: "The Next Web",
+      },
+      author: "Siôn Geschwindt",
+      title:
+        "Crypto giant Binance sidesteps Belgium ban by redirecting users to Poland",
+      description:
+        "After being banned from Belgium in June, the world’s largest cryptocurrency exchange platform, Binance, has resumed operations in the country by redirecting customers through its entity in Poland.  Binance said its Polish division would comply with the “regul…",
+      url: "https://thenextweb.com/news/crypto-binance-belgium-eu-poland",
+      urlToImage:
+        "https://img-cdn.tnwcdn.com/image/tnw-blurple?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2023%2F08%2Fcrypto-binance-poland-europe.jpg&signature=075cb53cdf2e0c827bd42455605260c9",
+      publishedAt: "2023-08-29T11:47:26Z",
+      content:
+        "After being banned from Belgium in June, the worlds largest cryptocurrency exchange platform, Binance, has resumed operations in the country by redirecting customers through its entity in Poland. \r\nB… [+2260 chars]",
+      sentiment: "Neutral",
+    },
+    {
+      source: {
+        id: "time",
+        name: "Time",
+      },
+      author: "Katharine Gemmell / Bloomberg",
+      title:
+        "How and Why Two British Teens Hacked Several of the Biggest Tech Companies in the World",
+      description:
+        "A recent trial provided a rare window into the workings of Lapsus$, a secretive gathering of tech geeks, showing how the intrusions were orchestrated and the group’s motivations: notoriety, money, and also just “lolz.”",
+      url: "https://time.com/6308370/british-teenagers-hack-tech-companies/",
+      urlToImage:
+        "https://api.time.com/wp-content/uploads/2023/08/GettyImages-685007437.jpg?quality=85",
+      publishedAt: "2023-08-25T07:30:00Z",
+      content:
+        "At 9 p.m. on Sept. 22 last year, a group of City of London police officers waited outside room M15 at the Travelodge Bicester, a one-star budget hotel in Oxfordshire, England, for the right moment to… [+11655 chars]",
+      sentiment: "Negative",
+    },
+    {
+      source: {
+        id: null,
+        name: "Slate Magazine",
+      },
+      author: "Emily Peck",
+      title: "How Crypto Fails Sex Workers",
+      description:
+        "Crypto isn’t a new financial system; it’s a layer on the old one.",
+      url: "https://slate.com/podcasts/what-next-tbd/2023/08/sex-workers-cant-count-on-crypto",
+      urlToImage:
+        "https://compote.slate.com/images/ec681111-8d35-4d03-b89e-10ceeb78883f.jpeg?crop=1560%2C1040%2Cx0%2Cy0&width=1560",
+      publishedAt: "2023-08-18T09:00:00Z",
+      content:
+        "At first, cryptocurrency seemed like the solution to the problems sex workers have had with traditional banks. But as the US moves to regulate the crypto industry, many are finding it hasnt worked ou… [+505 chars]",
+      sentiment: "Negative",
+    },
+    {
+      source: {
+        id: "polygon",
+        name: "Polygon",
+      },
+      author: "Joshua Rivera",
+      title:
+        "The Afterparty’s erotic thriller parody is one of the funniest TV episodes of the year",
+      description:
+        "Guest star Michael Ealy steals the show in Apple TV Plus’ The Afterparty in “Danner’s Fire,” an episode that parodies erotic thrillers.",
+      url: "https://www.polygon.com/23824996/afterparty-apple-tv-erotic-thriller-episode-danners-fire-michael-ealy-incredible",
+      urlToImage:
+        "https://cdn.vox-cdn.com/thumbor/IA3Ox79J15VsXn0gb1xdL9H2l88=/0x0:6000x3141/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/24838544/The_Afterparty_Photo_020604.jpg",
+      publishedAt: "2023-08-09T13:00:00Z",
+      content:
+        "Every once in a while, a show airs an episode thats so good it makes you wish for a whole series just like it. Danners Fire, this weeks scintillating installment of Apple TV Plus murder mystery comed… [+3610 chars]",
+      sentiment: "Positive",
+    },
+    {
+      source: {
+        id: "polygon",
+        name: "Polygon",
+      },
+      author: "Diego Nicolás Argüello",
+      title: "The 18 most exciting video game releases of fall 2023",
+      description:
+        "After Starfield comes major AAA releases like Mortal Kombat 1 and Assassin’s Creed Mirage as well as other new first-person and third-person games, plus a few must-play indies.",
+      url: "https://www.polygon.com/2023/9/1/23850620/new-video-games-fall-2023-release-date-schedule",
+      urlToImage:
+        "https://cdn.vox-cdn.com/thumbor/1lSTaiWO4NgngRZB7llgzaAmZek=/0x215:3000x1786/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/24882305/fall_2023_games_preview.jpg",
+      publishedAt: "2023-09-01T13:05:07Z",
+      content:
+        "2023 has been full of the unexpected. The first half of the year was led by a charge of remasters and remakes, like Metroid Prime Remastered and Dead Space, that actually understood the assignment an… [+17196 chars]",
+      sentiment: "Positive",
+    },
+    {
+      source: {
+        id: null,
+        name: "Boing Boing",
+      },
+      author: "Mark Frauenfelder",
+      title:
+        "People who paid a fortune for Bored Apes are now suing Sotheby's, Paris Hilton, Justin Bieber, and others as NFT prices plummet",
+      description:
+        "In May of last year, the lowest price for a Bored Ape NFT was over $400,000. Today, the same NFT is worth only 11% as much, selling for $43,391.\n\n\n\nIn December, the people who bought Bored Ape NFTs when the price was high filed a lawsuit against everyone they…",
+      url: "https://boingboing.net/2023/08/18/people-who-paid-a-fortune-for-bored-apes-are-now-suing-sothebys-paris-hilton-justin-bieber-and-others-as-nft-prices-plummet.html",
+      urlToImage:
+        "https://i0.wp.com/boingboing.net/wp-content/uploads/2023/08/paris-hilton.jpg?fit=1200%2C601&ssl=1",
+      publishedAt: "2023-08-18T17:58:20Z",
+      content:
+        "In May of last year, the lowest price for a Bored Ape NFT was over $400,000. Today, the same NFT is worth only 11% as much, selling for $43,391.\r\nIn December, the people who bought Bored Ape NFTs whe… [+1912 chars]",
+      sentiment: "Negative",
+    },
+    {
+      source: {
+        id: null,
+        name: "Boing Boing",
+      },
+      author: "Thom Dunn",
+      title:
+        "Sneak peek of The Devil's Cut, the first book from the much-hyped new comic book publisher DLSTRY",
+      description:
+        "DSTLRY is a brand new creator-centered comic book publishing endeavor from David Steinberger and Chip Mosher, the founder and former head of content (respectively) of ComiXology. The company made waves upon its initial launch in April 2023, announcing an impr…",
+      url: "https://boingboing.net/2023/09/02/sneak-peek-of-the-devils-cut-the-first-book-from-the-much-hyped-new-comic-book-publisher-dlstry.html",
+      urlToImage:
+        "https://i0.wp.com/boingboing.net/wp-content/uploads/2023/08/TDC_CVR-F_Mirka-Andolfo-1-75-scaled.jpg?fit=1200%2C759&ssl=1",
+      publishedAt: "2023-09-02T12:09:46Z",
+      content:
+        "DSTLRY is a brand new creator-centered comic book publishing endeavor from David Steinberger and Chip Mosher, the founder and former head of content (respectively) of ComiXology. The company made wav… [+2888 chars]",
+      sentiment: "Neutral",
+    },
+  ],
+};

@@ -10,8 +10,6 @@ import cookieParser from "cookie-parser";
 import MongoStore from "connect-mongo";
 import usersRoutes from "./routers/users.js";
 import currenciesRoutes from "./routers/currencies.js";
-import articlesRoutes from "./routers/articles.js";
-import forumsRoutes from "./routers/forums.js";
 import generalRoutes from "./routers/general.js";
 import multer from "multer";
 
@@ -58,7 +56,7 @@ app.use(
     store: MongoStore.create({ mongoUrl: process.env.MONGO_URL }),
     cookie: {
       maxAge: 1000 * 60 * 60 * 24, // 1 day
-      secure: true, // set to true if your site is on HTTPS
+      secure: false, // set to true if your site is on HTTPS
       httpOnly: true,
     },
   })
@@ -66,8 +64,6 @@ app.use(
 
 app.use("/users", usersRoutes);
 app.use("/currencies", currenciesRoutes);
-app.use("/articles", articlesRoutes);
-app.use("/forums", forumsRoutes);
 app.use("/general", generalRoutes);
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });

@@ -1,13 +1,16 @@
 from transformers import BertForSequenceClassification, BertTokenizerFast
-import pandas as pd
 import torch
+import sys
+import json
 
 # Load the saved model and tokenizer
+MODEL_PATH = r"C:\Users\user\Desktop\APU\APU_Levet3\semester 2\FYP\FYP_CODE\server\AIModel\sentiment_model2"
+
 
 tokenizer = BertTokenizerFast.from_pretrained(
-    "python\sentiment_model2")
+    MODEL_PATH)
 model = BertForSequenceClassification.from_pretrained(
-    "python\sentiment_model2")
+    MODEL_PATH)
 
 
 # Make sure to move the model to 'cuda' if you are using GPU
@@ -35,26 +38,8 @@ def get_sentiment(text):
         else:
             return 'Positive'
 
-# apply the model to the test data
 
-
-def Sentiment():
-    # List of filenames
-    filenames = ['topNews', 'BTC', 'ETH', 'BNB', 'XRP', 'ADA', 'SOL', 'DOT',
-                 'Matic', 'USDT', 'USDC', 'DOGE', 'TRX', 'DAI', 'TON', 'SHIB', 'LTC', 'AVAX',
-                 'XLM', 'LINK', 'BUSD', 'UNI', 'XMR', 'OKB', 'ATOM', 'ETC', 'HBAR', 'FIL',
-                 'MNT', 'APT', 'CRO', 'QNT']
-
-    # Loop through each filename
-    for filename in filenames:
-        # Read the Excel file into a DataFrame
-        df = pd.read_excel(filename+".xlsx")
-
-        # Apply the get_sentiment function to the 'Description' column and create a new 'Sentiment' column
-        df['SentimentDesc'] = df['Description'].apply(get_sentiment)
-        df['SentimentTitle'] = df['Title'].apply(get_sentiment)
-
-        # Save the updated DataFrame back to the same Excel file
-        df.to_excel(filename+".xlsx", index=False)
-
-    print("Sentiment analysis completed for all files.")
+if __name__ == "__main__":
+    titles = json.loads(sys.argv[1])
+    sentiments = [get_sentiment(title) for title in titles]
+    print(json.dumps(sentiments))

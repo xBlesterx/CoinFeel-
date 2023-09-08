@@ -126,7 +126,6 @@ const Watchlist = () => {
       }))
     : {};
 
-  console.log(data);
   return (
     <Grid container p={5}>
       <Grid item xs={12}>

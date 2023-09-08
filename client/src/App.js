@@ -6,7 +6,6 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { themeSettings } from "./theme";
 import Home from "./scenes/home";
 import Layout from "./scenes/layout";
-import Dashboard from "./scenes/dashboard";
 import React from "react";
 import CryptoDetails from "./scenes/CryptoDetails";
 import Exchanges from "./scenes/Exchanges";

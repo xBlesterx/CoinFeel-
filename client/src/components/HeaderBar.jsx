@@ -70,7 +70,7 @@ const HeaderBar = () => {
       window.location.href = `/details/${cryptoName}`;
       setSearchTerm("");
     };
-  }, [navigate]);
+  });
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -197,7 +197,7 @@ const HeaderBar = () => {
                     }}
                   >
                     {data?.slice(0, 4).map((crypto) => (
-                      <Box
+                      <Button
                         key={crypto._id}
                         p={1}
                         sx={{
@@ -222,7 +222,7 @@ const HeaderBar = () => {
                         <Typography variant="body1">
                           ({crypto.symbol})
                         </Typography>
-                      </Box>
+                      </Button>
                     ))}
                   </Box>
                 </Popper>

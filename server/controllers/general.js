@@ -1,6 +1,7 @@
 import axios from "axios";
 import stringify from "json-stringify-safe";
 import Sentiment from "../models/Sentiment.js";
+import { spawn, exec } from "child_process";
 
 const THIRTY_MINUTES = 30 * 60 * 1000;
 
@@ -20,7 +21,7 @@ export const getMarcketData = async (req, res) => {
       const sentiment = await Sentiment.find();
 
       const cryptoLatestInfo = await axios.get(
-        "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=en"
+        "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=200&page=1&sparkline=false&locale=en"
       );
       const globalInfo = await axios.get(
         "https://api.coingecko.com/api/v3/global"
@@ -91,23 +92,72 @@ export const getNews = async (req, res) => {
     )}-${String(date.getDate()).padStart(2, "0")}`;
 
   const fromDate = formatDate(yesterday);
-  console.log("🚀 ~ file: general.js:94 ~ getNews ~ fromDate:", fromDate);
+
   const toDate = formatDate(today);
-  console.log("🚀 ~ file: general.js:96 ~ getNews ~ toDate:", toDate);
+
   try {
     const newsInfo = await axios.get(
       `https://newsapi.org/v2/everything?q=crypto&sortBy=popularity&apiKey=a1ba957a74c647a48f43d666485307c1`
     );
 
-    const newsData = { ...newsInfo };
-    delete newsData.config;
-    delete newsData.request;
+    const titles = newsInfo.data.articles.map((article) => article.title);
 
-    res.status(200).json(newsData);
+    const sentiments = await getSentimentForNews(titles);
+
+    const articlesWithSentiment = newsInfo.data.articles.map(
+      (article, index) => {
+        return { ...article, sentiment: sentiments[index] };
+      }
+    );
+
+    res.status(200).json({ ...newsInfo.data, articles: articlesWithSentiment });
   } catch (error) {
     res.status(404).json({ message: error });
   }
 };
+
+const getSentimentForNews = (text) => {
+  return new Promise((resolve, reject) => {
+    const process = spawn("python", [
+      "../server/AIModel/BERT.py",
+      JSON.stringify(text),
+    ]);
+    let result = "";
+
+    process.stdout.on("data", (data) => {
+      result += data.toString();
+    });
+
+    process.stderr.on("data", (data) => {
+      reject(new Error(`Python Error: ${data.toString()}`));
+    });
+
+    process.on("close", (code) => {
+      if (code !== 0) {
+        reject(new Error(`Python script exited with code ${code}`));
+      } else {
+        try {
+          const parsedResult = JSON.parse(result);
+          resolve(parsedResult);
+        } catch (error) {
+          reject(new Error(`Error parsing Python output: ${error.message}`));
+        }
+      }
+    });
+
+    process.on("error", (error) => {
+      reject(new Error(`Error spawning Python process: ${error.message}`));
+    });
+  });
+};
+
+exec('tasklist | findstr "BERT.py"', (error, stdout, stderr) => {
+  if (stdout) {
+    console.log("BERT.py is running");
+  } else {
+    console.log("BERT.py is not running");
+  }
+});
 
 export const getSentiment = async (req, res) => {
   try {

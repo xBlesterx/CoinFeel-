@@ -5,6 +5,9 @@
 /python/node_modules
 /client/node_modules
 /python/sentiment_model2
+/python/sentiment_model4
+/python/sentiment_model4_Tokinizer
+/server/AIMODEL/sentiment_model2
 /.pnp
 .pnp.js
 
