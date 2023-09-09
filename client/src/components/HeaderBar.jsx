@@ -35,7 +35,7 @@ import MarketDetails from "./MarketDetails";
 import { useDispatch, useSelector } from "react-redux";
 import { logoutUser, setMode } from "../state";
 import { useNavigate } from "react-router-dom";
-import { useGetSearchDataQuery, usePostLogoutQuery } from "../state/api";
+import { useGetSearchDataQuery } from "../state/api";
 
 const pages = ["Home", "Exchanges", "News"];
 
@@ -45,7 +45,6 @@ const HeaderBar = () => {
   const navigate = useNavigate();
   const theme = useTheme();
   const dispatch = useDispatch();
-  const [anchorElNav, setAnchorElNav] = useState(null);
   const [anchorElUser, setAnchorElUser] = useState(null);
   const [anchorEl, setAnchorEl] = useState(null);
 
@@ -58,23 +57,22 @@ const HeaderBar = () => {
 
   const handleSearchBlur = () => {
     // You can set a delay here if you want the user to have a moment before the popper disappears
-    setTimeout(() => setAnchorEl(null), 100);
+    setTimeout(() => setAnchorEl(null), 1000);
   };
 
   const handleSearchFocus = (event) => {
     setAnchorEl(event.currentTarget);
   };
 
-  const handleResultClick = useMemo(() => {
-    return (cryptoName) => {
-      window.location.href = `/details/${cryptoName}`;
-      setSearchTerm("");
-    };
-  });
-
-  const handleOpenNavMenu = (event) => {
-    setAnchorElNav(event.currentTarget);
+  const handleResultClick = (cryptoName) => {
+    console.log(
+      "🚀 ~ file: HeaderBar.jsx:69 ~ return ~ cryptoName:",
+      cryptoName
+    );
+    navigate(`/details/${cryptoName}`);
+    setSearchTerm("");
   };
+
   const handleOpenUserMenu = (event) => {
     setAnchorElUser(event.currentTarget);
   };
@@ -198,6 +196,10 @@ const HeaderBar = () => {
                   >
                     {data?.slice(0, 4).map((crypto) => (
                       <Button
+                        onClick={() => {
+                          console.log("Button clicked");
+                          handleResultClick(crypto.id);
+                        }}
                         key={crypto._id}
                         p={1}
                         sx={{
@@ -205,7 +207,6 @@ const HeaderBar = () => {
                           display: "flex",
                           alignItems: "center",
                         }}
-                        onClick={() => handleResultClick(crypto.id)}
                       >
                         <Box
                           component="img"
