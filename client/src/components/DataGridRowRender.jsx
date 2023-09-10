@@ -1,7 +1,6 @@
-import { Box, Typography, useTheme } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
-import { Star } from "@mui/icons-material";
 
 const Name = ({ image, name, symbol }) => (
   <Box style={{ display: "flex", alignItems: "center" }}>

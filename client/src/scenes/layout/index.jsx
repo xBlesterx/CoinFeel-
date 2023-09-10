@@ -2,9 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Box, useMediaQuery } from "@mui/material";
 import { Outlet } from "react-router-dom";
 import HeaderBar from "../../components/HeaderBar";
-import { useDispatch, useSelector } from "react-redux";
-import { useGetMarketDataQuery } from "../../state/api";
-import { setDataInfo } from "../../state";
 
 const Layout = () => {
   const isNonMobile = useMediaQuery("(min-width: 600px)");

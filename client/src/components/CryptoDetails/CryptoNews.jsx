@@ -10,7 +10,6 @@ import {
   useTheme,
   Button,
 } from "@mui/material";
-import { cryptoDetails as dummy } from "../../dummyData";
 
 const CryptoNews = ({ data }) => {
   const [visibleCount, setVisibleCount] = useState(6);

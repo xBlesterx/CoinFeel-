@@ -1,10 +1,6 @@
 import React from "react";
-import {
-  useGetCryptoByWatchlistQuery,
-  useGetMarketDataQuery,
-  useGetWatchListQuery,
-} from "../../state/api";
-import { Box, Typography, Grid, CircularProgress } from "@mui/material";
+import { useGetCryptoByWatchlistQuery } from "../../state/api";
+import { Box, Grid, CircularProgress } from "@mui/material";
 
 import Header from "../../components/Header";
 
@@ -16,8 +12,6 @@ import {
   Volume_Info,
 } from "../../components/DataGridRowRender";
 import { useNavigate } from "react-router-dom";
-import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
-import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
 
 const columns = [
   {

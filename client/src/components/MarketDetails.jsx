@@ -1,9 +1,15 @@
 import React from "react";
-import { Box, Typography, useTheme, Button } from "@mui/material";
+import {
+  Box,
+  Typography,
+  useTheme,
+  Button,
+  useMediaQuery,
+} from "@mui/material";
 import { useGetMarketDataQuery } from "../state/api";
-import { sentiment as dummy } from "../dummyData";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
+import Marquee from "react-marquee-slider";
 
 const backColor = (score) => {
   if (score >= 0 && score < 0.4) {
@@ -34,12 +40,89 @@ function formatNumber(num) {
   return num.toString();
 }
 
+const Ticker = ({ children }) => {
+  const theme = useTheme();
+  const isSmallScreen = useMediaQuery(theme.breakpoints.down("md"));
+
+  const childArray = React.Children.toArray(children); // This will ensure children is always an array
+
+  if (!isSmallScreen) {
+    return childArray; // Simply return the children as is if not on a small screen
+  }
+
+  return (
+    <Marquee velocity={50} loop={0}>
+      {childArray.map((child, index) => (
+        <span key={index} style={{ marginRight: "30px" }}>
+          {child}
+        </span>
+      ))}
+    </Marquee>
+  );
+};
+
 const MarketDetails = () => {
   const userID = useSelector((state) => state.global.user);
   const navigate = useNavigate();
 
   const { data, isLoading } = useGetMarketDataQuery();
   const theme = useTheme();
+
+  const renderDetails = () => (
+    <Box sx={{ display: "flex", alignItems: "center", mb: "-1rem" }}>
+      {Headers.map(({ id, stats }) => (
+        <Box sx={{ display: "flex", mr: 3 }}>
+          <Typography
+            variant="h6"
+            sx={{
+              mr: 1,
+              color: theme.palette.grey[400],
+              fontSize: "0.8rem",
+            }}
+          >
+            {id}:
+          </Typography>
+          <Typography
+            variant="h7"
+            sx={{
+              mr: 1,
+              color: theme.palette.secondary[500],
+              fontSize: "0.8rem",
+            }}
+          >
+            {stats}
+          </Typography>
+        </Box>
+      ))}
+      <Typography
+        variant="h6"
+        sx={{
+          mr: 1,
+          color: theme.palette.grey[400],
+          fontSize: "0.8rem",
+        }}
+      >
+        Sentiment / Score:
+      </Typography>
+      {data?.sentiment.map((items) => {
+        if (items["Crypto"] === "topNews") {
+          return (
+            <Typography
+              variant="h7"
+              sx={{
+                mr: 1,
+                color: backColor(items.score),
+                fontSize: "0.8rem",
+              }}
+            >
+              {items.sentiment} / {Number(items.score).toFixed(2)}
+            </Typography>
+          );
+        }
+      })}
+    </Box>
+  );
+
   const Headers = data
     ? [
         {
@@ -70,82 +153,17 @@ const MarketDetails = () => {
     : [];
 
   return (
-    <Box mt="0.5rem" sx={{ borderBottom: 0.1, borderColor: "#ffffff" }}>
-      <Box mx="1rem" mb="0.5rem" sx={{ display: "flex", alignItems: "center" }}>
-        {Headers.map(({ id, stats }) => (
-          <Box sx={{ display: "flex", mr: 3 }}>
-            <Typography
-              variant="h6"
-              sx={{ mr: 1, color: theme.palette.grey[400] }}
-            >
-              {id}:
-            </Typography>
-            <Typography
-              variant="h7"
-              sx={{ mr: 1, color: theme.palette.secondary[500] }}
-            >
-              {stats}
-            </Typography>
-          </Box>
-        ))}
-        <Typography variant="h6" sx={{ mr: 1, color: theme.palette.grey[400] }}>
-          Sentiment / Score:
-        </Typography>
-        {data?.sentiment.map((items) => {
-          if (items["Crypto"] === "topNews") {
-            return (
-              <Typography
-                variant="h7"
-                sx={{
-                  mr: 1,
-                  color: backColor(items.score),
-                }}
-              >
-                {items.sentiment} / {Number(items.score).toFixed(2)}
-              </Typography>
-            );
-          }
-        })}
-        {!userID ? (
-          <Box sx={{ display: "flex", ml: "auto" }}>
-            <Box sx={{ mr: 2 }}>
-              <Button
-                variant="outlined"
-                sx={{
-                  color: theme.palette.secondary[500],
-                  "&:hover": {
-                    backgroundColor: theme.palette.grey[200],
-                    color: "#000",
-                  },
-                }}
-                onClick={() => navigate("/login")}
-              >
-                <Typography variant="h5" sx={{ mx: 1 }}>
-                  Log In
-                </Typography>
-              </Button>
-            </Box>
-            <Box sx={{}}>
-              <Button
-                sx={{
-                  background: theme.palette.secondary[500],
-                  color: theme.palette.grey[1000],
-                  "&:hover": {
-                    backgroundColor: theme.palette.grey[200],
-                    color: "#3c52b2",
-                  },
-                }}
-                onClick={() => navigate("/signup")}
-              >
-                <Typography variant="h5" sx={{ mx: 1 }}>
-                  Sign Up
-                </Typography>
-              </Button>
-            </Box>
-          </Box>
-        ) : (
-          <Box></Box>
-        )}
+    <Box
+      mt="0.5rem"
+      sx={{
+        borderBottom: 0.1,
+        borderColor: "#ffffff",
+        flexWrap: "wrap",
+        display: "flex",
+      }}
+    >
+      <Box mx="1rem" mb="1.5rem" sx={{ display: "flex", alignItems: "center" }}>
+        <Ticker>{renderDetails()}</Ticker>
       </Box>
     </Box>
   );

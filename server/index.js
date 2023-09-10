@@ -12,12 +12,15 @@ import usersRoutes from "./routers/users.js";
 import currenciesRoutes from "./routers/currencies.js";
 import generalRoutes from "./routers/general.js";
 import multer from "multer";
+import sentimentRoutes from "./routers/sentiment.js";
 
 // Data Imports
 import User from "./models/Users.js";
 import { dummyUsers } from "./data/dummyData.js";
 import Currency from "./models/Currencies.js";
 import { cryptoData } from "./data/dummyData.js";
+import { marketSentiment } from "./data/dummyData.js";
+import Market from "./models/MarketSentiment.js";
 
 /*CONFIGURATION*/
 
@@ -65,6 +68,7 @@ app.use(
 app.use("/users", usersRoutes);
 app.use("/currencies", currenciesRoutes);
 app.use("/general", generalRoutes);
+app.use("/sentiment", sentimentRoutes);
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });
 
@@ -99,7 +103,11 @@ mongoose
   })
   .then(() => {
     app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
+
     //Currency.insertMany(cryptoData);
+
+    //Market.insertMany(marketSentiment);
+
     //User.insertMany(dummyUsers);
   })
   .catch((error) => console.log(error));

@@ -20,6 +20,7 @@ export const api = createApi({
     "CryptoByWatchlist",
     "Update",
     "Sentiment",
+    "MarketSentiment",
   ],
   endpoints: (builder) => ({
     getMarketData: builder.query({
@@ -35,7 +36,7 @@ export const api = createApi({
       providesTags: ["Exchanges"],
     }),
     getNewsData: builder.query({
-      query: () => "general/news",
+      query: () => "sentiment/news",
       providesTags: ["News"],
     }),
     getSearchData: builder.query({
@@ -93,6 +94,10 @@ export const api = createApi({
       query: () => "general/sentiment",
       providesTags: ["Sentiment"],
     }),
+    getMarketSentiment: builder.query({
+      query: () => "sentiment/marketsentiment",
+      providesTags: ["MarketSentiment"],
+    }),
   }),
 });
 
@@ -111,4 +116,5 @@ export const {
   useGetCryptoByWatchlistQuery,
   usePutUpdateUserMutation,
   useGetSentimentQuery,
+  useGetMarketSentimentQuery,
 } = api;

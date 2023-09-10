@@ -2,6 +2,7 @@ import pandas as pd
 from pymongo import MongoClient
 import os
 from dotenv import load_dotenv
+import datetime
 
 # Load .env file
 load_dotenv()
@@ -83,3 +84,32 @@ def monogoDB():
         except OSError as e:
             print(f"Error deleting file {filename}.xlsx: {e}")
     print("Opperation done successfully!!")
+    # ... [your existing code up to the MongoDB interaction part]
+
+    # Connect to the MongoDB server
+    client = MongoClient(os.environ.get("MONGO_URL"), 27017)
+
+    # Choose the database and collection. I'm assuming 'cryptoDB' as the database based on your example.
+    db = client['test']
+    collection = db['markets']
+
+    # Check if there's already an entry for "Sentiment"
+    sentiment_entry = collection.find_one({"id": "Sentiment"})
+
+    today_sentiment_data = {
+        "x": datetime.datetime.utcnow(),
+        "y": avg_sentiments["topNews"],
+    }
+
+    if sentiment_entry:
+        # If there's an entry, append the new sentiment data for today
+        collection.update_one({"id": "Sentiment"}, {
+                              "$push": {"data": today_sentiment_data}})
+    else:
+        # If there's no entry, create a new one
+        new_entry = {
+            "id": "Sentiment",
+            "color": "#fff2ac",
+            "data": [today_sentiment_data]
+        }
+        collection.insert_one(new_entry)

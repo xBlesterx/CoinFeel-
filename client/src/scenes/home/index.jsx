@@ -1,5 +1,4 @@
 import React from "react";
-import { v4 as uuidv4 } from "uuid";
 import { useGetMarketDataQuery } from "../../state/api";
 import {
   Box,
@@ -7,31 +6,24 @@ import {
   useTheme,
   Grid,
   CircularProgress,
-  createTheme,
-  ThemeProvider,
 } from "@mui/material";
-import FlexBetween from "../../components/FlexBetween";
 import Header from "../../components/Header";
 import HomeBoxHighlight from "../../components/HomeCards.jsx/HomeBoxHighlight";
 import { DataGrid } from "@mui/x-data-grid";
-import { Speed, Whatshot, Star } from "@mui/icons-material";
-import HourglassTopOutlinedIcon from "@mui/icons-material/HourglassTopOutlined";
+import { Whatshot } from "@mui/icons-material";
 import {
   Name,
   PriceChange,
   ValueToFixed,
   Volume_Info,
 } from "../../components/DataGridRowRender";
-import { Navigate, useNavigate } from "react-router-dom";
-import { dataListing as data } from "../../dummyData";
+import { useNavigate } from "react-router-dom";
 import NewsCards from "../../components/HomeCards.jsx/NewsCards";
 import NFTCards from "../../components/HomeCards.jsx/NFTCards";
 import NewspaperIcon from "@mui/icons-material/Newspaper";
 import CameraAltIcon from "@mui/icons-material/CameraAlt";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
-import { useSelector } from "react-redux";
-import { sentiment as dummy } from "../../dummyData";
 
 const columns = [
   {

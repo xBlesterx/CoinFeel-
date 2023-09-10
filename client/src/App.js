@@ -19,6 +19,7 @@ import Watchlist from "./scenes/watchlist";
 import Log_out_in_layout from "./scenes/layout/log_out_in";
 import Profile from "./scenes/profile";
 import LandingPage from "./scenes/landingPage";
+import Sentiment from "./scenes/sentiment";
 
 const App = () => {
   const dispatch = useDispatch();
@@ -62,6 +63,14 @@ const App = () => {
                 element={
                   <ProtectedRoute>
                     <Home />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="/sentiment"
+                element={
+                  <ProtectedRoute>
+                    <Sentiment />
                   </ProtectedRoute>
                 }
               />

@@ -2,7 +2,6 @@ import { Box, Grid, Typography, useTheme } from "@mui/material";
 import { DataGrid } from "@mui/x-data-grid";
 import React from "react";
 import Header from "../Header";
-import { cryptoDetails as dummy } from "../../dummyData";
 import ExIcons from "./ExchangeICON";
 
 const formatDate = (dateString) => {

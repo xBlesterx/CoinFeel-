@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useGetCryptoDetailsQuery } from "../../state/api";
 import { useParams } from "react-router-dom";
-import { cryptoDetails as dummy } from "../../dummyData";
 import {
   Box,
   useTheme,

@@ -41,6 +41,7 @@ const CryptoGraph = ({ dataInfo }) => {
     const data1 = [priceData];
     return [data1];
   }, [dataInfo]);
+  console.log(formattedData);
 
   return (
     <Box sx={{ width: "100%", height: "100%" }}>

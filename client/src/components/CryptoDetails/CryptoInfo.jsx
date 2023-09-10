@@ -1,14 +1,9 @@
-import React, { useState, useEffect, useRef, useMemo } from "react";
+import React, { useState, useEffect } from "react";
 import {
-  useGetCryptoDetailsQuery,
   useGetSentimentQuery,
   useGetWatchListQuery,
   usePostWatchListMutation,
 } from "../../state/api";
-import { useParams } from "react-router-dom";
-import { cryptoDetails as dummy } from "../../dummyData";
-import { ResponsiveLine } from "@nivo/line";
-import { nivoData } from "../../dummyData";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
 import LanguageIcon from "@mui/icons-material/Language";
@@ -17,11 +12,6 @@ import {
   Box,
   Typography,
   useTheme,
-  Grid,
-  Divider,
-  Tab,
-  Tabs,
-  CircularProgress,
   LinearProgress,
   linearProgressClasses,
   Button,
@@ -29,7 +19,6 @@ import {
 } from "@mui/material";
 import Header from "../Header";
 import { GitHub, Reddit, Star } from "@mui/icons-material";
-import DropMenuOption from "./DropMenuOption";
 
 function formatDate(dateString) {
   const months = [

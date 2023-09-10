@@ -1,14 +1,8 @@
 import React from "react";
-import {
-  useGetCryptoDetailsQuery,
-  useGetMarketDataQuery,
-  useGetNewsDataQuery,
-} from "../../state/api";
-import { News as dummy } from "../../dummyData";
+import { useGetNewsDataQuery } from "../../state/api";
 import {
   Grid,
   Card,
-  CardMedia,
   CardContent,
   Typography,
   Button,
