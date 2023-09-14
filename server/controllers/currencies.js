@@ -156,14 +156,11 @@ export const getWatchlist = async (req, res) => {
 
 export const getCryptoByWatchlist = async (req, res) => {
   const user = await User.findById(req.session.userId);
-  const watchlist = user.currencies;
 
-  const idsString = encodeURIComponent(watchlist.join(","));
-  console.log(
-    "🚀 ~ file: currencies.js:155 ~ getCryptoByWatchlist ~ idsString:",
-    idsString
-  );
   try {
+    const watchlist = user.currencies;
+
+    const idsString = encodeURIComponent(watchlist.join(","));
     const response = await axios.get(
       `https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=${idsString}&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=en`
     );
