@@ -1,8 +1,14 @@
 import { Box, Grid, Typography, useTheme, Tooltip } from "@mui/material";
 import React, { useState } from "react";
 import Header from "../Header";
-
 import copy from "copy-to-clipboard";
+
+function wrapTaggedTextWithSpan(text) {
+  // Use regex to replace all <a> tags with <a> tags wrapped in a span with a specific class
+  return text
+    .replace(/<a /g, '<span class="tagged-text"><a ')
+    .replace(/<\/a>/g, "</a></span>");
+}
 
 const CryptoAbout = ({ data }) => {
   const CopyToClipboardText = ({ text }) => {
@@ -56,10 +62,14 @@ const CryptoAbout = ({ data }) => {
               mt: 2,
               fontFamily: "monospace",
               textAlign: "justify",
+              "& .tagged-text a": {
+                color: theme.palette.secondary[400], // or any color you prefer
+              },
             }}
-          >
-            {data.description.en}
-          </Typography>
+            dangerouslySetInnerHTML={{
+              __html: wrapTaggedTextWithSpan(data.description.en),
+            }}
+          />
         </Box>
 
         <Grid container spacing={2} sx={{ mt: 1 }}>
