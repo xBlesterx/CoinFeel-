@@ -54,7 +54,7 @@ const NFTCards = ({ sentiment, logo, title }) => {
         <ReactSpeedometer
           maxValue={2}
           value={Number(newsSentiment.score).toFixed(2)}
-          customSegmentStops={[0, 0.6, 1, 1.1, 1.4, 2]}
+          customSegmentStops={[0, 0.6, 1, 1.2, 1.4, 2]}
           startColor={"#FF471A"}
           segmentColors={[
             "#FF471A",

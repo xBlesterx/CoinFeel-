@@ -16,6 +16,7 @@ import {
   PriceChange,
   ValueToFixed,
   Volume_Info,
+  ValueToFixedCircule,
 } from "../../components/DataGridRowRender";
 import { useNavigate } from "react-router-dom";
 import NewsCards from "../../components/HomeCards.jsx/NewsCards";
@@ -88,7 +89,7 @@ const columns = [
     field: "circulating_supply",
     headerName: "Circulating Supply",
     flex: 1,
-    renderCell: (params) => <ValueToFixed value={params.value} />,
+    renderCell: (params) => <ValueToFixedCircule value={params.value} />,
   },
 ];
 function formatNumber(num) {

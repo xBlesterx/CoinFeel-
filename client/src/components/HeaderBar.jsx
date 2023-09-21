@@ -217,7 +217,7 @@ const HeaderBar = () => {
                         overflow: "auto",
                       }}
                     >
-                      {data?.slice(0, 4).map((crypto) => (
+                      {data?.slice(0, 5).map((crypto) => (
                         <Button
                           onClick={() => {
                             console.log("Button clicked");
@@ -239,11 +239,14 @@ const HeaderBar = () => {
                           />
                           <Typography
                             variant="body1"
-                            sx={{ mr: 1, fontWeight: "bold" }}
+                            sx={{ mr: 1, fontWeight: "bold", color: "white" }}
                           >
                             {crypto.name}
                           </Typography>
-                          <Typography variant="body1">
+                          <Typography
+                            variant="body1"
+                            sx={{ mr: 1, fontWeight: "bold", color: "white" }}
+                          >
                             ({crypto.symbol})
                           </Typography>
                         </Button>

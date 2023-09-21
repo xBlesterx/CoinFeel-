@@ -33,7 +33,7 @@ const PriceChange = ({ price }) => (
           fontWeight: "bold",
         }}
       >
-        {price.toFixed(3)}%
+        {price.toFixed(3)} %
       </Typography>
     </Box>
   </Box>
@@ -44,7 +44,16 @@ const ValueToFixed = ({ value }) => (
       fontSize: 18,
     }}
   >
-    ${Number(value.toFixed(2)).toLocaleString()}
+    $ {Number(value.toFixed(2)).toLocaleString()}
+  </Typography>
+);
+const ValueToFixedCircule = ({ value }) => (
+  <Typography
+    sx={{
+      fontSize: 18,
+    }}
+  >
+    {Number(value.toFixed(2)).toLocaleString()}
   </Typography>
 );
 
@@ -55,7 +64,7 @@ const Volume_Info = ({ volume, amount, symbol }) => (
         fontSize: 18,
       }}
     >
-      ${Number(volume.toFixed(2)).toLocaleString()}
+      $ {Number(volume.toFixed(2)).toLocaleString()}
     </Typography>
     <Typography
       sx={{
@@ -70,4 +79,4 @@ const Volume_Info = ({ volume, amount, symbol }) => (
   </Box>
 );
 
-export { Name, PriceChange, ValueToFixed, Volume_Info };
+export { Name, PriceChange, ValueToFixed, Volume_Info, ValueToFixedCircule };
