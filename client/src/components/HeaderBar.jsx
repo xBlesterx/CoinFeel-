@@ -318,14 +318,6 @@ const HeaderBar = () => {
                         Profile
                       </MenuItem>
 
-                      {/* Button for Settings with an icon */}
-                      <MenuItem>
-                        <ListItemIcon>
-                          <SettingsIcon fontSize="small" />
-                        </ListItemIcon>
-                        Settings
-                      </MenuItem>
-
                       {/* Button for Logout with an icon */}
                       <MenuItem onClick={() => handleLogout()}>
                         <ListItemIcon>

@@ -47,13 +47,13 @@ const ValueToFixed = ({ value }) => (
     $ {Number(value.toFixed(2)).toLocaleString()}
   </Typography>
 );
-const ValueToFixedCircule = ({ value }) => (
+const ValueToFixedCircule = ({ value, symbol }) => (
   <Typography
     sx={{
       fontSize: 18,
     }}
   >
-    {Number(value.toFixed(2)).toLocaleString()}
+    {symbol.toUpperCase()} {Number(value.toFixed(2)).toLocaleString()}
   </Typography>
 );
 

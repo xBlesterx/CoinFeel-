@@ -21,7 +21,7 @@ export const getMarcketData = async (req, res) => {
       const sentiment = await Sentiment.find();
 
       const cryptoLatestInfo = await axios.get(
-        "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=200&page=1&sparkline=false&locale=en"
+        "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=en"
       );
       const globalInfo = await axios.get(
         "https://api.coingecko.com/api/v3/global"

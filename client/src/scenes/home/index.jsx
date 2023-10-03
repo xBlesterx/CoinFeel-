@@ -89,7 +89,12 @@ const columns = [
     field: "circulating_supply",
     headerName: "Circulating Supply",
     flex: 1,
-    renderCell: (params) => <ValueToFixedCircule value={params.value} />,
+    renderCell: (params) => (
+      <ValueToFixedCircule
+        value={params.value.value}
+        symbol={params.value.symbol}
+      />
+    ),
   },
 ];
 function formatNumber(num) {
@@ -131,7 +136,10 @@ const Home = () => {
           amount: coin.total_volume / coin.current_price,
           symbol: coin.symbol,
         },
-        circulating_supply: coin.circulating_supply,
+        circulating_supply: {
+          value: coin.circulating_supply,
+          symbol: coin.symbol,
+        },
       }))
     : {};
 
