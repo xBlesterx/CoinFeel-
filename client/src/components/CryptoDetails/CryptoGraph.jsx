@@ -9,6 +9,10 @@ import {
   Divider,
   Tab,
   Tabs,
+  FormControl,
+  InputLabel,
+  Select,
+  MenuItem,
 } from "@mui/material";
 import { nivoData } from "../../dummyData";
 import Header from "../Header";
@@ -44,18 +48,36 @@ const CryptoGraph = ({ dataInfo }) => {
   console.log(formattedData);
 
   return (
-    <Box sx={{ width: "100%", height: "100%" }}>
-      <Header title="Chart" />
+    <Box
+      sx={{
+        width: "100%",
+        height: "100%",
+      }}
+    >
+      <Header title="Charts" />
       <Box
         sx={{
           width: "100%",
-          height: "90%",
+          height: "100%",
           backgroundColor: theme.palette.primary.dark,
           borderRadius: 10,
           boxShadow: 20,
           m: 2,
+          display: "flex", // <- Add Flexbox
+          flexDirection: "column",
+          justifyContent: "space-between",
         }}
       >
+        <Box display="flex" justifyContent="flex-end" paddingRight={2}>
+          <FormControl sx={{ width: 120 }}>
+            <InputLabel>Time Range</InputLabel>
+            <Select value={1} label="Time range">
+              <MenuItem value={7}>Weekly</MenuItem>
+              <MenuItem value={30}>Monthly</MenuItem>
+              <MenuItem value={365}>Yearly</MenuItem>
+            </Select>
+          </FormControl>
+        </Box>
         <ResponsiveLine
           data={formattedData}
           theme={{
@@ -111,41 +133,41 @@ const CryptoGraph = ({ dataInfo }) => {
             stacked: false,
             reverse: false,
           }}
-          curve="linear"
+          curve="monotoneX"
           yFormat=">.2f"
           //curve="catmullRom"
           axisTop={false}
           axisBottom={{
             orient: "bottom",
-            tickSize: 5,
-            tickPadding: 5,
+            tickSize: 10,
+            tickPadding: 10,
             tickRotation: 90,
             format: "%b %Y",
             tickValues: "every month",
             legend: "Month",
-            legendOffset: 70,
+            legendOffset: 80,
             legendPosition: "middle",
           }}
           axisLeft={false}
           axisRight={{
             orient: "right",
-            tickSize: 5,
-            tickPadding: 5,
+            tickSize: 10,
+            tickPadding: 10,
             tickRotation: 0,
             format: formatPriceTick,
             legend: "Price",
-            legendOffset: 70,
+            legendOffset: 80,
             legendPosition: "middle",
           }}
           enableGridX={false}
           enableGridY={false}
           enableArea={true}
           areaBaselineValue={0}
-          areaOpacity={0.1}
-          pointSize={2}
+          areaOpacity={0.2}
+          pointSize={4}
           pointColor={{ theme: "background" }}
-          pointBorderWidth={2}
-          pointBorderColor={{ from: "serieColor" }}
+          pointBorderWidth={3}
+          pointBorderColor={{ from: "color", modifiers: [["darker", 0.3]] }}
           pointLabelYOffset={-12}
           useMesh={true}
         />

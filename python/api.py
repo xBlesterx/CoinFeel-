@@ -2,13 +2,14 @@ import requests
 import pandas as pd
 from newsapi import NewsApiClient
 from datetime import datetime, timedelta
+import os
 
-
-# I
+CRYPTOCOMPARE_API_KEY = os.environ.get("CRYPTOCOMPARE_API_KEY")
+url = f"https://min-api.cryptocompare.com/data/v2/news/?lang=EN&api_key={CRYPTOCOMPARE_API_KEY}"
 
 
 def cryptocompare():
-    url = "https://min-api.cryptocompare.com/data/v2/news/?lang=EN&api_key=c242651eeb0d6e0a0e1d1ecc8171128973c46726cbfbc8c3616058539cf806de"
+
     response = requests.get(url)
     data = response.json()
     title = [item['title'] for item in data['Data']]
@@ -24,7 +25,7 @@ def cryptocompare():
 
 
 def newsapi():
-    newsapi = NewsApiClient(api_key='a1ba957a74c647a48f43d666485307c1')
+    newsapi = NewsApiClient(api_key=os.environ.get("NEWSAPIKEY"))
     try:
         all_articles = newsapi.get_top_headlines(
             language='en', category='business')
