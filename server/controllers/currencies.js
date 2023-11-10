@@ -21,7 +21,7 @@ export const getCryptoDetails = async (req, res) => {
       `https://api.coingecko.com/api/v3/coins/${req.params.id}/market_chart/range?vs_currency=usd&from=1640966400&to=${date}`
     );
     const cryptoNewsInfo = await axios.get(
-      `https://newsapi.org/v2/everything?q=${req.params.id}&apiKey=a1ba957a74c647a48f43d666485307c1`
+      `https://newsapi.org/v2/everything?q=${req.params.id}&apiKey=${process.env.NEWSAPIKEY}`
     );
 
     // Create new objects and remove unwanted properties

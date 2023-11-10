@@ -31,7 +31,7 @@ export const getMarcketData = async (req, res) => {
       );
 
       const topNewsInfo = await axios.get(
-        "https://newsapi.org/v2/top-headlines?q=crypto&apikey=a1ba957a74c647a48f43d666485307c1"
+        `https://newsapi.org/v2/top-headlines?q=crypto&apikey=${process.env.NEWSAPIKEY}`
       );
 
       const topNewsInfoData = { ...topNewsInfo };

@@ -20,7 +20,7 @@ export const getNews = async (req, res) => {
 
   try {
     const newsInfo = await axios.get(
-      `https://newsapi.org/v2/everything?q=bitcoin&from=${fromDate}&to=${toDate}&sortBy=popularity&apiKey=a1ba957a74c647a48f43d666485307c1`
+      `https://newsapi.org/v2/everything?q=bitcoin&from=${fromDate}&to=${toDate}&sortBy=popularity&apiKey=${process.env.NEWSAPIKEY}`
     );
 
     const titles = newsInfo.data.articles.map((article) => article.title);
